@@ -3,14 +3,14 @@ module.exports = {
     locales: {
         // 键名是该语言所属的子路径
         // 作为特例，默认语言可以使用 '/' 作为其路径。
-        '/en/': {
+        '/': {
             lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
-            title: 'Documents',
+            title: 'Hiplot',
             description: 'Visualization'
         },
-        '/': {
+        '/zh/': {
             lang: 'zh-CN',
-            title: '使用文档',
+            title: 'Hiplot',
             description: '可视化'
         }
     },
@@ -18,7 +18,7 @@ module.exports = {
         locales: {
             // 键名是该语言所属的子路径
             // 作为特例，默认语言可以使用 '/' 作为其路径。
-            '/en/': {
+            '/': {
                 selectText: 'Languages',
                 label: 'English',
                 editLinkText: 'Edit this page on GitHub',
@@ -29,24 +29,25 @@ module.exports = {
                     }
                 },
                 nav: [
+                    { text: 'Home', link: 'https://hiplot.com.cn' },
                     { text: 'Docs', link: '/' },
-                    {
-                        text: 'Extra',
-                        items: [
-                            { text: 'Home', link: 'http://61.129.70.139:3030' },
-                            { text: 'Community', link: 'https://discord.com/channels/708006569765502996/708006570411163752' },
-                        ]
-                    }
+                    { text: 'Community', link: 'https://discord.com/channels/708004190286381068' },
                 ],
                 algolia: {},
                 sidebar: [
                     {
                         title: 'Introduction',
                         collapsable: true,
-                    },
+                        children: [
+                            '/',
+                            '/usage/',
+                            '/contribute',
+                            '/about'
+                        ]
+                    }
                 ],
             },
-            '/': {
+            '/zh/': {
                 selectText: '选择语言',
                 // 该语言在下拉菜单中的标签
                 label: '简体中文',
@@ -60,14 +61,9 @@ module.exports = {
                     }
                 },
                 nav: [
-                    { text: '文档', link: '/' },
-                    {
-                        text: '其他链接',
-                        items: [
-                            { text: '主页', link: 'http://61.129.70.139:3030/' },
-                            { text: '用户频道', link: 'https://discord.com/channels/708006569765502996/708006570411163752' },
-                        ]
-                    }
+                    { text: '主页', link: 'https://hiplot.com.cn' },
+                    { text: '文档', link: '/zh/' },
+                    { text: '用户社区', link: 'https://discord.com/channels/708004190286381068' },
                 ],
                 // 当前 locale 的 algolia docsearch 选项
                 algolia: {},
@@ -76,7 +72,8 @@ module.exports = {
                         title: '简介',
                         collapsable: true,
                         children: [
-                            '/usage/',
+                            '/zh/',
+                            '/zh/usage/'
                         ]
                     }
                 ],
@@ -86,7 +83,7 @@ module.exports = {
         sidebarDepth: 1,
         activeHeaderLinks: true,
         displayAllHeaders: true,
-        repo: 'Miachol/hiplot',
+        repo: 'hiplot/docs',
 
         lastUpdated: 'Last Updated',
     },
