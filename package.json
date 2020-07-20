@@ -5,7 +5,7 @@
   "description": "docs of hiplot",
   "scripts": {
     "dev": "vuepress dev .",
-    "build": "vuepress build .",
+    "build": "./scripts/build_rmd.R && vuepress build .",
     "show-help": "vuepress --help"
   },
   "repository": {

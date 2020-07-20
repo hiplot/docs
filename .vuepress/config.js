@@ -41,6 +41,7 @@ module.exports = {
                         children: [
                             '/',
                             '/usage/',
+                            '/env',
                             '/contribute',
                             '/about'
                         ]
