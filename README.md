@@ -11,7 +11,7 @@ In recent years, with the development of various cloud computing platforms (such
 1. Most of the visualization software or methods developed by the open source user community have not been well integrated under a unified user interface;
 2. There is no active collaborative community for the visualization of scientific research data in China, and the "** Draw Group" has become one of the few choices for primary scientific research users;
 3. There is a lack of core data visualization software and platforms similar to Graphpad and MATLAB in China. After being banned by the United States, they can only spend additional costs to migrate the process or start over;
-4. There are several disadvantages of existing platforms and tools: the user interface is not beautiful enough; lack of the Chinese and English support; it is still difficult to get started; the file management of some platforms is not convenient; users cannot actively participate in platform development；
+4. There are several disadvantages of existing platforms and tools: the user interface is not beautiful enough; lack of the Chinese and English support; it is still difficult to get started; the file Manager of some platforms is not convenient; users cannot actively participate in platform development；
 5. Data visualization tools are still relatively scarce.
 
 ![Galaxy Platform](https://s1.ax1x.com/2020/07/08/UEk8mV.png)
@@ -54,7 +54,7 @@ Upload files
 
 ![](https://pic1.zhimg.com/80/v2-e22822a6d179aaff5320b478ee0388ba_720w.jpg)
 
-Management of files
+Manager of files
 
 ![](https://pic2.zhimg.com/80/v2-24406918e07c06aeae75cb6e704b6eeb_720w.jpg)
 

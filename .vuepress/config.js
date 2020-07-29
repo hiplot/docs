@@ -40,11 +40,17 @@ module.exports = {
                         collapsable: true,
                         children: [
                             '/',
-                            '/usage/',
-                            '/usage/basic/',
+                            '/modules',
                             '/env',
                             '/contribute',
                             '/about'
+                        ]
+                    },
+                    {
+                        title: 'Getting Started',
+                        collapsable: true,
+                        children: [
+                            '/usage/basic/'
                         ]
                     }
                 ],
@@ -75,7 +81,14 @@ module.exports = {
                         collapsable: true,
                         children: [
                             '/zh/',
-                            '/zh/usage/'
+                            '/zh/modules'
+                        ]
+                    },
+                    {
+                        title: '入门指南',
+                        collapsable: true,
+                        children: [
+                            '/zh/usage/basic/'
                         ]
                     }
                 ],
@@ -83,7 +96,7 @@ module.exports = {
         },
 
         sidebarDepth: 1,
-        activeHeaderLinks: true,
+        activeHeaderLinks: false,
         displayAllHeaders: true,
         repo: 'hiplot/docs',
 

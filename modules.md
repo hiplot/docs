@@ -1,6 +1,6 @@
-# Usage
+# Summary of modules
 
-## File Management
+## File Manager
 
 Users can upload the files using the web interface and RESTful APIs:
 
@@ -56,7 +56,7 @@ A visualization plugin of Hiplot mainly contains six-part:
 
 ![Demo of Hiplot correlation heatmap](https://s1.ax1x.com/2020/07/08/UV5zGQ.png)
 
-## Other Tasks
+## Extra Module
 
 Apart from the interactive plots, Hiplot also supports users to submit other types of tasks, e.g. download data files or publications.
 
