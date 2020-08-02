@@ -35,6 +35,7 @@
     "lodash": "^4.17.19",
     "acorn": "^6.4.1",
     "kind-of": "^6.0.3",
-    "serialize-javascript": "^2.1.1"
+    "serialize-javascript": "^2.1.1",
+    "elliptic": "^6.5.3"
   }
 }
