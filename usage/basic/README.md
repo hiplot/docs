@@ -711,3 +711,53 @@
 - Interpretation of case statistics graphics
 
   The graph illustrates the distribution of variable values in different countries of the world. The redder the color, the higher the value, and the closer the color is to green, the lower the value.
+
+## Pyramid Chart
+
+- brief introduction
+
+  The pyramid chart is a pyramid-like figure that distributes data on both sides of a central axis.
+
+- Analysis of case data
+
+  The loaded data are age, gender, and the number of people after the combination of the first two variables .
+
+- Interpretation of case statistics graphics
+
+  The graph shows the age groups from bottom to top in order on the central axis, the left side represents the number of men, the right side represents the number of women, and the X-axis represents the number of people. The graph clearly shows the proportion of men and women in different age groups and the proportion of different age groups in the same gender.
+
+- Extra parameters
+
+  sort:No means the central axis is arranged in the order of age;Desc means descending order by total population;Asc stands for ascending order by total population.
+
+# Diverging scale
+
+- brief introduction
+
+  The diverging scale is a graph that maps a continuous, quantitative input to a continuous fixed interpolator.
+
+- Analysis of case data
+
+  The loaded data are models and its functional indexes.
+
+- Interpretation of case statistics graphics
+
+  Hp data is shown on the horizontal axis, model names (classification) are shown on the vertical axis, models above average are shown in red, and models below average are shown in blue. Data is assigned on a scale of 2 by size.
+
+- Extra parameters
+
+  Type:Lollipop represents the drawing of sliding beads on both sides of the central axis;Bar represents a bar graph drawn on both sides of the central axis.
+
+## Dist plot
+
+- brief introduction
+
+  The dist plot is a visual diagram using a confidence distribution.
+
+- Analysis of case data
+
+  The loaded data are five conditions and their corresponding values.
+
+- Interpretation of case statistics graphics
+
+  The diagram shows the confidence distribution of the mean under the conditions, and the approximate distribution of the corresponding values under the five conditions can be seen.
