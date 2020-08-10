@@ -1,6 +1,6 @@
 {
   "private": true,
-  "version": "0.1.0.beta2",
+  "version": "0.1.0.beta4",
   "name": "docs",
   "description": "docs of hiplot",
   "scripts": {
@@ -23,19 +23,20 @@
   },
   "homepage": "https://openbiox.org/wiki",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.5.2",
-    "@vuepress/plugin-google-analytics": "^1.5.2",
+    "@vuepress/plugin-back-to-top": "^1.5.3",
+    "@vuepress/plugin-google-analytics": "^1.5.3",
     "@vuepress/plugin-i18n-ui": "^1.0.0-alpha.32",
-    "@vuepress/plugin-medium-zoom": "^1.5.2",
+    "@vuepress/plugin-medium-zoom": "^1.5.3",
     "@vuepress/plugin-notification": "^1.0.0-alpha.32",
-    "@vuepress/plugin-pwa": "^1.5.2",
-    "vuepress": "^1.5.2",
+    "@vuepress/plugin-pwa": "^1.5.3",
+    "acorn": "^6.4.1",
+    "elliptic": "^6.5.3",
+    "kind-of": "^6.0.3",
+    "lodash": "^4.17.19",
+    "serialize-javascript": "^2.1.1",
+    "vuepress": "^1.5.3",
     "vuepress-plugin-flowchart": "^1.4.2",
     "websocket-extensions": "^0.1.4",
-    "lodash": "^4.17.19",
-    "acorn": "^6.4.1",
-    "kind-of": "^6.0.3",
-    "serialize-javascript": "^2.1.1",
-    "elliptic": "^6.5.3"
+    "prismjs": "^1.21.0"
   }
 }
