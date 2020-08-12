@@ -761,3 +761,65 @@
 - Interpretation of case statistics graphics
 
   The diagram shows the confidence distribution of the mean under the conditions, and the approximate distribution of the corresponding values under the five conditions can be seen.
+
+## Moon Charts
+
+- brief introduction
+
+  The moon chart is a graph that uses the moon's waxing and waning to reflect the size of the data.
+
+- Analysis of case data
+
+  The loaded data are the name of the restaurant and the number of types of food in the restaurant, the number of decorative style types, the number of tableware sets and the number of price types.
+
+- Interpretation of case statistics graphics
+
+  The first row of the diagram shows the name of the restaurant, the first column shows different variables in the restaurant, the blank moon represents the number of 1 (the least number), the black moon represents the number of 5 (the most number) data, as the number of data increases, the black area of the moon gradually becomes larger, that is, gradually becomes full moon.
+
+
+# R Script Flow
+
+- brief introduction
+
+  R script flow can realize the visual window of if, else and other logic functions.
+
+- Analysis of case data
+
+  The loaded data are if, else function code of R.
+
+- Interpretation of case statistics graphics
+
+  The graph shows that if the variable x&lt;10, a =1, if the variable x&GT;10, a = 2;If a is equal to 2, then c is equal to d, if a is not equal to 2, then d is equal to a.
+
+
+## Cox Models Forest
+
+- brief introduction
+
+  Cox model forest  is a visual representation of a COX model that constructs a risk forest map to facilitate variable screening
+
+- Analysis of case data
+
+  The loaded data are time,status and multiple variable factor.
+
+- Interpretation of case statistics graphics
+
+  The first column of the table shows the variables and sample numbers, the second column shows the forest plot, and the third column shows the CI 95% confidence interval range, its mean and P values.
+  
+  Forest map interpretation.
+  
+  The middle vertical line represents the invalid line, the horizontal line represents the 95% confidence interval of the variable factor, and the length represents the magnitude of the confidence interval. If the confidence interval of a variable factor intersects the invalid line, the variable factor is considered to have no statistical significance, and the position of the square is the point estimation of HR.
+  
+  Age is the control variable.
+  
+  The incidence of the ph.ecog factor is greater than that of the age factor, and the ph.ecog factor increases the occurrence of survival (P&LT;0.001, statistically significant).
+  
+  The incidence of sex is less than that of age, and sex reduces the incidence of survival (P =0.002&lt;0.05, statistically significant).
+
+- Extra parameters
+
+  Merge Models:Integrate multiple variable factors into an icon.
+
+  Drop Controls:Remove the row of the age variable in the diagram.
+
+  Add Caption:Mark the title below the icon to the right.
