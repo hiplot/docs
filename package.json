@@ -4,7 +4,7 @@
   "name": "docs",
   "description": "docs of hiplot",
   "scripts": {
-    "dev": "vuepress dev .",
+    "dev": "node --max_old_space_size=8192 ./node_modules/vuepress/cli.js dev .",
     "build": "./scripts/build_rmd.R && vuepress build .",
     "show-help": "vuepress --help"
   },

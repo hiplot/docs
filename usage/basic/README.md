@@ -1,6 +1,6 @@
 # Basic Module
 
-## Seqlogo
+## [Seqlogo](/basic/ggseqlogo)
 
 - brief introduction
 
@@ -22,7 +22,7 @@
 
   Method: BITS represented the proportion of different bases in the vertical coordinate axis with the maximum value of 2 by using the BIT formula;Prob represents the proportion of bases in the total base of the sequence, which is displayed in the vertical axis with the maximum value of 1..
 
-## Heatmap
+## [Heatmap](/basic/heatmap)
 
 - brief introduction
 
@@ -36,7 +36,7 @@
 
   In the example figure, each small grid represents each gene, and the shade of color represents the expression level of this gene. The larger the expression level is, the darker the color will be (red is up-regulated, green is down-regulated).Each row represents the expression of each gene in a different sample, and each column represents the expression of all genes in each sample.The upper tree represents the clustering analysis results of different samples of different groups and ages, and the left tree represents the clustering analysis results of different genes from different samples.
 
-## Corelation Heatmap
+## [Corelation Heatmap](/basic/cor-heatmap)
 
 - brief introduction
 
@@ -60,7 +60,7 @@
 
   Reorder:Sort by the resulting correlation coefficient.
 
-## ROC
+## [ROC](/basic/roc)
 
 - brief introduction
 
@@ -84,7 +84,7 @@
 
   Compare Modles:
 
-## Box plot
+## [Box plot](/basic/boxplot)
 
 - brief introduction
 
@@ -104,7 +104,7 @@
 
   Add Points:Mark out the points represented by numerical value
 
-## Violin
+## [Violin](/basic/violin)
 
 - brief introduction
 
@@ -124,7 +124,7 @@
 
   Add Boxplot:Place a boxplot inside the violin
 
-## Half Violin
+## [Half Violin](/basic/half-violin)
 
 - brief introduction
 
@@ -138,7 +138,7 @@
 
   The  half violin plot can reflect the data distribution, which is similar to the box diagram. The black horizontal line in the box shows the median gene expression level in each tumor, and the upper and lower edges in the white box represent the upper and lower quartiles in the data set. The distribution of observable numerical points on the left half; The violin graph can also reflect the data density, and the more concentrated the data set, the fatter the graph. The gene expression distribution in the BLGG group is more concentrated, followed by BIC group and AML group.
 
-## Ridge
+## [Ridge](/basic/ridge)
 
 - brief introduction
 
@@ -152,7 +152,7 @@
 
   Different colors represent different groups, and the approximate degree of data can be observed.
 
-## Gantt
+## [Gantt](/basic/gantt)
 
 - brief introduction 
 
@@ -166,7 +166,7 @@
 
   The horizontal axis represents the time schedule, the vertical axis represents 4 patients, and the 3 colors represent 3 treatments. The figure can observe the time schedule of different treatments for each patient.
 
-## Survival Analysis
+## [Survival Analysis](/basic/survival)
 
 - brief introduction
 
@@ -180,7 +180,7 @@
 
   The horizontal axis represents the time axis and the vertical axis represents the probability of survival.The red curve represents the survivolship curve of G1 group and the blue curve represents the survivolship curve of G2 group.After logrank test, p value =0.0013<0.05 indicated that the difference in survival status between the two groups could not be explained by sampling error, and the grouping factor was the reason for the difference in survival rate between the two curves.The graph shows that overall survival is better in G2 than in G1.
 
-## Volcano
+## [Volcano](/basic/volcano)
 
 - brief introduction
 
@@ -194,7 +194,7 @@
 
   The horizontal axis is denoted by log2 (fold change), and the more different genes are distributed at both ends of the picture.The ordinate is denoted by -log10 (p.value) and is the negative log of the P value of T test significance.Blue dots represent down-regulated genes, red dots represent up-regulated genes, and gray dots represent genes that are not significantly different.
 
-## Sankey
+## [Sankey](/basic/sankey)
 
 - brief introduction
 
@@ -208,7 +208,7 @@
 
   The color of female shunting is blue, the color of male shunting is red, and the width of blue shunting is equal to the total width of female.
 
-## Venn
+## [Venn](/basic/venn)
 
 - brief introduction
 
@@ -222,7 +222,7 @@
 
   The closed curve of 5 colors represents 5 sets, and the number represents the number of overlapping or non-overlapping genes in multiple sets. For example, 8 in the sample figure represents 8 identical gene names in 5 sample sets.
 
-## tSNE
+## [tSNE](/basic/tsne)
 
 - brief introduction
 
@@ -242,7 +242,7 @@
 
   Theta:
 
-## PCA
+## [PCA](/basic/pca)
 
 - brief introduction
 
@@ -256,7 +256,7 @@
 
   Different colors represent different samples, which can explain the relationship between principal components and original variables. For example, M1 has a greater contribution to PC1, while M8 has a greater negative correlation with PC1.
 
-## Line Regression
+## [Line Regression](/basic/line-regression)
 
 - brief introduction
 
@@ -270,7 +270,7 @@
 
   Different colors represent different groups, and linear regression equations can be added. The closer R squared is to 1, the closer the fitted curve is to the actual curve.
 
-## Line Regression（errorbar)
+## [Line Regression（errorbar)](/basic/line-errorbar)
 
 - brief introduction
 
@@ -288,7 +288,7 @@
 
   P Value Form:Value is a numeric value, signif is the number of "\*" and no is not showing the P value
 
-## Scatter
+## [Scatter](/basic/scatter)
 
 - brief introduction
 
@@ -306,7 +306,7 @@
 
   Change Point Shape:Different groups have different shapes.
 
-## 3D Scatter
+## [3D Scatter](/basic/scatter-3d)
 
 - brief introduction
 
@@ -326,7 +326,7 @@
 
   Theta:The Angle at which a three-dimensional figure rotates horizontally
 
-## Histogram
+## [Histogram](/basic/histogram)
 
 - brief introduction
 
@@ -344,7 +344,7 @@
 
   Bins: Change the width of the rectangle
 
-## Density
+## [Density](/basic/density)
 
 - brief introduction
 
@@ -362,7 +362,7 @@
 
   Stack:
 
-## Pie
+## [Pie](/basic/pie)
 
 - brief introduction
 
@@ -376,7 +376,7 @@
 
   In a circle graph, the arc length of each slice (the arc length of its center Angle and the region corresponding to its center Angle) is proportional to the number represented. The pie chart shows the number of samples for the 1 to 4 components and the corresponding proportions. The number of samples in one group is 13, accounting for 11.71%; the number of samples in two groups is 34, accounting for 30.63%; the number of samples in three groups is 21, accounting for 18.92%; and the number of samples in four groups is 43, accounting for 38.74%.
 
-## Donut
+## [Donut](/basic/donut)
 
 - brief introduction
 
@@ -390,7 +390,7 @@
 
   Different colors represent different groups and different areas represent data and proportion.
 
-## Dendrogram
+## [Dendrogram](/basic/dendrogram)
 
 - brief introduction
 
@@ -416,7 +416,7 @@
 
   Add Lable Color:After clustering, samples with similar names and colors are similar
 
-## Ribbon
+## [Ribbon](/basic/ribbon)
 
 - brief introduction
 
@@ -430,7 +430,7 @@
 
   Each color represents a different grouping, through which broken lines can be seen the change of each group of data over time.
 
-## Beeswarm
+## [Beeswarm](/basic/beeswarm)
 
 - brief introduction 
 
@@ -444,7 +444,7 @@
 
   Different colors represent different groups, and dots represent data.
 
-## Area
+## [Area](/basic/area)
 
 - brief introduction
 
@@ -458,7 +458,7 @@
 
   Different colors represent different groups of area charts.
 
-## Barplot
+## [Barplot](/basic/barplot)
 
 - brief introduction
 
@@ -480,7 +480,7 @@
 
   Add Numeric Lable:Add numeric lable
 
-## Contour(Matrix)
+## [Contour(Matrix)](/basic/contour-matrix)
 
 - brief introduction
 
@@ -494,7 +494,7 @@
 
   Yellow represents the highest, dark purple represents the lowest, the height scale range is 90-190.
 
-## 3D pie
+## [3D pie](/basic/pie-3d)
 
 - brief introduction
 
@@ -518,7 +518,7 @@
 
   Explode:The dispersion degree of each group pie chart
 
-## Line
+## [Line](/basic/line)
 
 - brief introduction
 
@@ -538,7 +538,7 @@
 
   Add Points:Add the point corresponding to the value
 
-## Bubble
+## [Bubble](/basic/bubble)
 
 - brief introduction
 
@@ -558,7 +558,7 @@
 
   Color Theme:Displays the color theme for the P value
 
-## Dotchart
+## [Dotchart](/basic/dotchart)
 
 - brief introduction
 
@@ -572,7 +572,7 @@
 
   Each color represents a different grouping, so that the differences in gene expression values can be intuitively understood.
 
-## 3D Barplot
+## [3D Barplot](/basic/barplot-3d)
 
 - brief introduction
 
@@ -592,7 +592,7 @@
 
   Theta:The Angle at which a three-dimensional figure rotates horizontally.
 
-## Contour (XY)
+## [Contour (XY)](/basic/contour-xy)
 
 - brief introduction
 
@@ -606,7 +606,7 @@
 
   Just as contour lines in geography represent different heights, different contour lines in contour maps represent different densities. The closer to the center, the smaller contour loop is, and the higher the regional data density is. For example, the data density of yellow area is the highest, while that of blue area is the lowest.
 
-## Radar
+## [Radar](/basic/radar)
 
 - brief introduction
 
@@ -620,7 +620,7 @@
 
   Each color of the radar map represents a disease, and the position of each point represents different gene expression. The higher the gene expression value, the farther away it is from the center of the circle, and vice versa.
 
-## Parliament
+## [Parliament](/basic/parliament)
 
 - brief introduction
 
@@ -634,7 +634,7 @@
 
   Different colors represent different groups, and each dot represents one data point. It's a semicircle of points, the smallest fraction of which can be represented by a single point in a parliamentary diagram.
 
-## Perspective
+## [Perspective](/basic/perspective)
 
 - brief introduction
 
@@ -648,7 +648,7 @@
 
   A clear view of a mountain peak.
 
-## Treemap
+## [Treemap](/basic/treemap)
 
 - brief introduction
 
@@ -666,7 +666,7 @@
 
   Corelated Labe Size with Box Size: Associate the label size with the square size ratio.
 
-## Fan plot
+## [Fan plot](/basic/fan)
 
 - brief introduction
 
@@ -684,7 +684,7 @@
 
   Show Ratio:Show the proportions next to the different groups.
 
-## China Map
+## [China Map](/basic/map-china)
 
 - brief introduction
 
@@ -698,7 +698,7 @@
 
   The graph shows the distribution of variable values in different provinces in China. The redder the color, the higher the value, and the closer the color is to green, the lower the value.
 
-## World Map
+## [World Map](/basic/map-world)
 
 - brief introduction
 
@@ -712,7 +712,7 @@
 
   The graph illustrates the distribution of variable values in different countries of the world. The redder the color, the higher the value, and the closer the color is to green, the lower the value.
 
-## Pyramid Chart
+## [Pyramid Chart](/basic/pyramid-chart)
 
 - brief introduction
 
@@ -730,7 +730,7 @@
 
   sort:No means the central axis is arranged in the order of age;Desc means descending order by total population;Asc stands for ascending order by total population.
 
-# Diverging scale
+## Diverging scale](/basic/diverging-scale)
 
 - brief introduction
 
@@ -748,7 +748,7 @@
 
   Type:Lollipop represents the drawing of sliding beads on both sides of the central axis;Bar represents a bar graph drawn on both sides of the central axis.
 
-## Dist plot
+## [Dist plot](/basic/ggdist)
 
 - brief introduction
 
@@ -762,7 +762,7 @@
 
   The diagram shows the confidence distribution of the mean under the conditions, and the approximate distribution of the corresponding values under the five conditions can be seen.
 
-## Moon Charts
+## [Moon Charts](/basic/moon-charts)
 
 - brief introduction
 
@@ -777,7 +777,7 @@
   The first row of the diagram shows the name of the restaurant, the first column shows different variables in the restaurant, the blank moon represents the number of 1 (the least number), the black moon represents the number of 5 (the most number) data, as the number of data increases, the black area of the moon gradually becomes larger, that is, gradually becomes full moon.
 
 
-# R Script Flow
+## [R Script Flow](/basic/r-code-flow)
 
 - brief introduction
 
@@ -792,7 +792,7 @@
   The graph shows that if the variable x&lt;10, a =1, if the variable x&GT;10, a = 2;If a is equal to 2, then c is equal to d, if a is not equal to 2, then d is equal to a.
 
 
-## Cox Models Forest
+## [Cox Models Forest](/basic/ezcox)
 
 - brief introduction
 
