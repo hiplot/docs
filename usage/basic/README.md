@@ -730,7 +730,7 @@
 
   sort:No means the central axis is arranged in the order of age;Desc means descending order by total population;Asc stands for ascending order by total population.
 
-## Diverging scale](/basic/diverging-scale)
+## [Diverging scale](/basic/diverging-scale)
 
 - brief introduction
 
