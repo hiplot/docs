@@ -23,21 +23,24 @@
   },
   "homepage": "https://openbiox.org/wiki",
   "devDependencies": {
+    "@hapi/hoek": "^9.1.0",
     "@vuepress/plugin-back-to-top": "^1.5.4",
     "@vuepress/plugin-google-analytics": "^1.5.4",
     "@vuepress/plugin-i18n-ui": "^1.0.0-alpha.32",
     "@vuepress/plugin-medium-zoom": "^1.5.4",
     "@vuepress/plugin-notification": "^1.0.0-alpha.32",
     "@vuepress/plugin-pwa": "^1.5.4",
-    "acorn": "^6.4.1",
+    "acorn": "^8.0.1",
     "elliptic": "^6.5.3",
+    "http-proxy": "^1.8.1",
     "kind-of": "^6.0.3",
     "lodash": "^4.17.20",
     "prismjs": "^1.21.0",
-    "serialize-javascript": "^3.1.0",
+    "serialize-javascript": "^5.0.1",
     "vuepress": "^1.5.4",
     "vuepress-plugin-flowchart": "^1.4.2",
     "websocket-extensions": "^0.1.4",
-    "@hapi/hoek": "^8.5.1"
+    "node-forge": "^0.10.0",
+    "yargs-parser": "^13.1.2"
   }
 }
