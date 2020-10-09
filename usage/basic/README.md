@@ -844,9 +844,7 @@
 
   - General parameters
 
-     Including the title, the theme of the graphics, the color theme, and the format of the exported picture, I won't do too much interpretation here. Please refer to
-
-  [Hiplot official instructions]: https://hiplot.com.cn/docs/
+     Including the title, the theme of the graphics, the color theme, and the format of the exported picture, I won't do too much interpretation here. Please refer to [Hiplot official instructions](https://hiplot.com.cn/docs/).
 
   - Special parameters
 
