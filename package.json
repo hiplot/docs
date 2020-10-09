@@ -1,6 +1,6 @@
 {
   "private": true,
-  "version": "0.1.0.beta4",
+  "version": "0.1.0.beta5",
   "name": "docs",
   "description": "docs of hiplot",
   "scripts": {
