@@ -42,6 +42,7 @@ module.exports = {
                             '/',
                             '/modules',
                             '/env',
+                            '/download/',
                             '/contribute',
                             '/about'
                         ]
@@ -81,7 +82,8 @@ module.exports = {
                         collapsable: true,
                         children: [
                             '/zh/',
-                            '/zh/modules'
+                            '/zh/modules',
+                            '/zh/download/'
                         ]
                     },
                     {
