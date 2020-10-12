@@ -1,0 +1,65 @@
+# Download
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## hctl
+
+hctl 是 Hiplot 网站的命令行程序. 它可以让用户在命令行环境下使用 Hiplot 网站的绘图系统。
+
+最新发布版本 (v0.1.0):
+
+**Linux:**
+
+- [hctl_0.1.0_Linux_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Linux_64-bit.tar.gz)
+- [hctl_0.1.0_Linux_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Linux_32-bit.tar.gz)
+
+**MAC OSX:**
+
+- [hctl_0.1.0_Darwin_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Darwin_64-bit.tar.gz)
+
+
+**Windows:**
+
+- [hctl_0.1.0_Windows_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Windows_64-bit.tar.gz)
+- [hctl_0.1.0_Windows_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Windows_32-bit.tar.gz)
+
+使用 hctl 进行绘图之前，用户需要使用 `hctl login` 命令获得 Hiplot 的服务授权。 登录成功后，即可使用 `hctl plot` 命令进行绘图：输入数据为一个 JSON 格式的参数文件和/或一个/多个数据表。
+
+示例输入 [demo.tar.gz](https://hiplot.com.cn/download/hctl/_demo.tar.gz)。
+
+```bash
+## Linux 64 Demo
+mkdir /tmp/hiplot
+cd /tmp/hiplot
+wget https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Linux_64-bit.tar.gz
+wget https://hiplot.com.cn/download/hctl/_demo.tar.gz
+
+tar -xzvf hctl_0.1.0_Linux_64-bit.tar.gz
+tar -xzvf _demo.tar.gz
+
+./hctl login
+
+# only input data files
+./hctl plot -c _demo/heatmap/params.json -t heatmap -d _demo/heatmap/countData.txt,_demo/heatmap/sampleInfo.txt,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-pure-data-mode
+
+# only use remote files
+./hctl plot -c _demo/heatmap/params2.json -t heatmap -o /tmp/hiplot-pure-remote-data-mode
+
+# mixed usage
+./hctl plot -c _demo/heatmap/params3.json -t heatmap -d _demo/heatmap/countData.txt,,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-mixed-mode
+```
+
+### 命令行主程序
+
+```{bash message=FALSE, warning=FALSE, echo=FALSE}
+cd /tmp
+hctl -h
+```
+
+### 绘图子程序
+
+```{bash message=FALSE, warning=FALSE, echo=FALSE}
+cd /tmp
+hctl plot -h
+```

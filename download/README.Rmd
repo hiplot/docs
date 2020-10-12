@@ -1,0 +1,64 @@
+# Download
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## hctl
+
+hctl is the command-line client of Hiplot website. It can be used to draw plots without the web environment.
+
+Latest release version (v0.1.0):
+
+**Linux:**
+
+- [hctl_0.1.0_Linux_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Linux_64-bit.tar.gz)
+- [hctl_0.1.0_Linux_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Linux_32-bit.tar.gz)
+
+**MAC OSX:**
+
+- [hctl_0.1.0_Darwin_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Darwin_64-bit.tar.gz)
+
+
+**Windows:**
+- [hctl_0.1.0_Windows_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Windows_64-bit.tar.gz)
+- [hctl_0.1.0_Windows_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Windows_32-bit.tar.gz)
+
+It is required to login Hiplot server first using the `hctl login` command. `hctl plot` command can be used to draw plots by using the parameter file and data files.
+
+Demo input files of hctl can be download from here: [demo.tar.gz](https://hiplot.com.cn/download/hctl/_demo.tar.gz).
+
+```bash
+## Linux 64 Demo
+mkdir /tmp/hiplot
+cd /tmp/hiplot
+wget https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Linux_64-bit.tar.gz
+wget https://hiplot.com.cn/download/hctl/_demo.tar.gz
+
+tar -xzvf hctl_0.1.0_Linux_64-bit.tar.gz
+tar -xzvf _demo.tar.gz
+
+./hctl login
+
+# only input data files
+./hctl plot -c _demo/heatmap/params.json -t heatmap -d _demo/heatmap/countData.txt,_demo/heatmap/sampleInfo.txt,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-pure-data-mode
+
+# only use remote files
+./hctl plot -c _demo/heatmap/params2.json -t heatmap -o /tmp/hiplot-pure-remote-data-mode
+
+# mixed usage
+./hctl plot -c _demo/heatmap/params3.json -t heatmap -d _demo/heatmap/countData.txt,,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-mixed-mode
+```
+
+### Main Interface
+
+```{bash message=FALSE, warning=FALSE, echo=FALSE}
+cd /tmp
+hctl -h
+```
+
+### Plot Interface
+
+```{bash message=FALSE, warning=FALSE, echo=FALSE}
+cd /tmp
+hctl plot -h
+```
