@@ -38,14 +38,17 @@ tar -xzvf _demo.tar.gz
 
 ./hctl login
 
-# only input data files
-./hctl plot -c _demo/heatmap/params.json -t heatmap -d _demo/heatmap/countData.txt,_demo/heatmap/sampleInfo.txt,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-pure-data-mode
+# 只输入本地数据文件
+./hctl plot -c _demo/heatmap/config.json -t heatmap -d _demo/heatmap/countData.txt,_demo/heatmap/sampleInfo.txt,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-pure-data-mode
 
-# only use remote files
-./hctl plot -c _demo/heatmap/params2.json -t heatmap -o /tmp/hiplot-pure-remote-data-mode
+# 只使用远程服务器文件
+./hctl plot -c _demo/heatmap/config2.json -t heatmap -o /tmp/hiplot-pure-remote-data-mode
 
-# mixed usage
-./hctl plot -c _demo/heatmap/params3.json -t heatmap -d _demo/heatmap/countData.txt,,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-mixed-mode
+# 混合使用本地数据和远程服务器文件
+./hctl plot -c _demo/heatmap/config3.json -t heatmap -d _demo/heatmap/countData.txt,,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-mixed-mode
+
+# 使用 Hiplot 网站导出的参数文件
+./hctl plot -p _demo/heatmap/params.json -t heatmap -o /tmp/hiplot-params-mode
 ```
 
 ### 命令行主程序
@@ -68,7 +71,7 @@ tar -xzvf _demo.tar.gz
 ##       --log-dir string   log dir. (default "/tmp/_log")
 ##   -o, --out-dir string   output dir. (default "/tmp")
 ##       --save-log         Save log to file.
-##   -k, --task-id string   task ID (default is random). (default "a40638a2-fc33-4bb3-99bd-cad9af0eb439")
+##   -k, --task-id string   task ID (default is random). (default "d0f03aea-c1cd-4b20-ac77-95cd8fee8883")
 ##       --verbose int      verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ##   -v, --version          version for hctl
 ## 
@@ -85,23 +88,25 @@ tar -xzvf _demo.tar.gz
 ##   hctl plot [flags]
 ## 
 ## Examples:
-##   hctl plot -c _demo/heatmap/params.json -t heatmap -d _demo/heatmap/countData.txt,_demo/heatmap/sampleInfo.txt,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-pure-data-mode
-##   hctl plot -c _demo/heatmap/params2.json -t heatmap -o /tmp/hiplot-pure-remote-data-mode
-##   hctl plot -c _demo/heatmap/params3.json -t heatmap -d _demo/heatmap/countData.txt,,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-mixed-mode
+##   hctl plot -c _demo/heatmap/config.json -t heatmap -d _demo/heatmap/countData.txt,_demo/heatmap/sampleInfo.txt,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-pure-data-mode
+##   hctl plot -c _demo/heatmap/config2.json -t heatmap -o /tmp/hiplot-pure-remote-data-mode
+##   hctl plot -c _demo/heatmap/config3.json -t heatmap -d _demo/heatmap/countData.txt,,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-mixed-mode
+##   hctl plot -p _demo/heatmap/params.json -t heatmap -o /tmp/hiplot-params-mode
 ## 
 ## Flags:
+##   -c, --config string      json format tool config file.
 ##   -d, --data string        data table file (sepreate by comma).
 ##   -h, --help               help for plot
 ##   -m, --module string      module name: basic, advance. (default "basic")
-##   -c, --params string      json format tool params file (exported by Hiplot).
+##   -p, --params string      json format tool params file (exported by Hiplot).
 ##       --print-links        print result links
-##       --temp-code string   task tempcode. (default "oDWds7J")
+##       --temp-code string   task tempcode. (default "h2H4Y24")
 ##   -t, --tool string        tool name (e.g. heatmap).
 ## 
 ## Global Flags:
 ##       --log-dir string   log dir. (default "/tmp/_log")
 ##   -o, --out-dir string   output dir. (default "/tmp")
 ##       --save-log         Save log to file.
-##   -k, --task-id string   task ID (default is random). (default "b79a23b8-84c0-4599-be5b-7675d8adb625")
+##   -k, --task-id string   task ID (default is random). (default "e6816205-5a0d-460d-9d97-71810b3b2200")
 ##       --verbose int      verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ```
