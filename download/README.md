@@ -5,21 +5,21 @@
 
 hctl is the command-line client of Hiplot website. It can be used to draw plots without the web environment.
 
-Latest release version (v0.1.0):
+Latest release version (v0.1.1):
 
 **Linux:**
 
-- [hctl_0.1.0_Linux_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Linux_64-bit.tar.gz)
-- [hctl_0.1.0_Linux_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Linux_32-bit.tar.gz)
+- [hctl_0.1.1_Linux_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Linux_64-bit.tar.gz)
+- [hctl_0.1.1_Linux_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Linux_32-bit.tar.gz)
 
 **MAC OSX:**
 
-- [hctl_0.1.0_Darwin_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Darwin_64-bit.tar.gz)
+- [hctl_0.1.1_Darwin_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Darwin_64-bit.tar.gz)
 
 
 **Windows:**
-- [hctl_0.1.0_Windows_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Windows_64-bit.tar.gz)
-- [hctl_0.1.0_Windows_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Windows_32-bit.tar.gz)
+- [hctl_0.1.1_Windows_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Windows_64-bit.tar.gz)
+- [hctl_0.1.1_Windows_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Windows_32-bit.tar.gz)
 
 It is required to login Hiplot server first using the `hctl login` command. `hctl plot` command can be used to draw plots by using the parameter file and data files.
 
@@ -29,10 +29,10 @@ Demo input files of hctl can be download from here: [demo.tar.gz](https://hiplot
 ## Linux 64 Demo
 mkdir /tmp/hiplot
 cd /tmp/hiplot
-wget https://hiplot.com.cn/download/hctl/v0.1.0/hctl_0.1.0_Linux_64-bit.tar.gz
+wget https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Linux_64-bit.tar.gz
 wget https://hiplot.com.cn/download/hctl/_demo.tar.gz
 
-tar -xzvf hctl_0.1.0_Linux_64-bit.tar.gz
+tar -xzvf hctl_0.1.1_Linux_64-bit.tar.gz
 tar -xzvf _demo.tar.gz
 
 ./hctl login
@@ -61,6 +61,7 @@ tar -xzvf _demo.tar.gz
 ##   hctl [command]
 ## 
 ## Available Commands:
+##   config      Initializing a config.json file of hiplot application.
 ##   help        Help about any command
 ##   login       Login Hiplot Website.
 ##   plot        Plot functions of Hiplot Website.
@@ -70,7 +71,7 @@ tar -xzvf _demo.tar.gz
 ##       --log-dir string   log dir. (default "/tmp/_log")
 ##   -o, --out-dir string   output dir. (default "/tmp")
 ##       --save-log         Save log to file.
-##   -k, --task-id string   task ID (default is random). (default "6aa83de8-14b6-4d54-8ec4-09ad65538d26")
+##   -k, --task-id string   task ID (default is random). (default "324d8a72-fe29-4a2f-8ac1-fe0be9e9d8f3")
 ##       --verbose int      verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ##   -v, --version          version for hctl
 ## 
@@ -99,13 +100,13 @@ tar -xzvf _demo.tar.gz
 ##   -m, --module string      module name: basic, advance. (default "basic")
 ##   -p, --params string      json format tool params file (exported by Hiplot).
 ##       --print-links        print result links
-##       --temp-code string   task tempcode. (default "B33Mxgu")
+##       --temp-code string   task tempcode. (default "dBOZErB")
 ##   -t, --tool string        tool name (e.g. heatmap).
 ## 
 ## Global Flags:
 ##       --log-dir string   log dir. (default "/tmp/_log")
 ##   -o, --out-dir string   output dir. (default "/tmp")
 ##       --save-log         Save log to file.
-##   -k, --task-id string   task ID (default is random). (default "6769d8ac-92a8-4371-a1d6-0caa08de3491")
+##   -k, --task-id string   task ID (default is random). (default "245cbed7-c932-411f-b41e-3045ce15a448")
 ##       --verbose int      verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ```

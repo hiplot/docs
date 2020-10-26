@@ -5,12 +5,12 @@ module.exports = {
         // 作为特例，默认语言可以使用 '/' 作为其路径。
         '/': {
             lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
-            title: 'Hiplot',
+            "title": 'Hiplot',
             description: 'Visualization'
         },
         '/zh/': {
             lang: 'zh-CN',
-            title: 'Hiplot',
+            "title": 'Hiplot',
             description: '可视化'
         }
     },
@@ -36,7 +36,7 @@ module.exports = {
                 algolia: {},
                 sidebar: [
                     {
-                        title: 'Introduction',
+                        "title": 'Introduction',
                         collapsable: true,
                         children: [
                             '/',
@@ -48,7 +48,7 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Getting Started',
+                        "title": 'Getting Started',
                         collapsable: true,
                         children: [
                             '/usage/basic/'
@@ -78,7 +78,7 @@ module.exports = {
                 algolia: {},
                 sidebar: [
                     {
-                        title: '简介',
+                        "title": '简介',
                         collapsable: true,
                         children: [
                             '/zh/',
@@ -87,17 +87,25 @@ module.exports = {
                         ]
                     },
                     {
-                        title: '入门指南',
+                        "title": '入门指南',
                         collapsable: true,
                         children: [
                             '/zh/usage/basic/'
+                        ]
+                    },
+                    {
+                        "title": '开发指南',
+                        collapsable: true,
+                        children: [
+                            '/zh/development-guides/',
+                            '/zh/development-guides/bs4dash'
                         ]
                     }
                 ],
             }
         },
 
-        sidebarDepth: 1,
+        sidebarDepth: 2,
         activeHeaderLinks: false,
         displayAllHeaders: true,
         repo: 'hiplot/docs',
