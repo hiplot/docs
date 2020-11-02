@@ -1,5 +1,21 @@
 module.exports = {
     base: '/docs/',
+    head: [
+        // 添加百度统计
+        [
+            "script",
+            {},
+            `
+            var _hmt = _hmt || [];
+            (function () {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?0b834e1080e98dd6144a263303f8bd1b";
+              var s = document.getElementsByTagName("script")[0];
+              s.parentNode.insertBefore(hm, s);
+            })();
+            `
+        ]
+    ],
     locales: {
         // 键名是该语言所属的子路径
         // 作为特例，默认语言可以使用 '/' 作为其路径。
@@ -98,7 +114,8 @@ module.exports = {
                         collapsable: true,
                         children: [
                             '/zh/development-guides/',
-                            '/zh/development-guides/bs4dash'
+                            '/zh/development-guides/bs4dash',
+                            '/zh/development-guides/run'
                         ]
                     }
                 ],

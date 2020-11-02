@@ -1,4 +1,4 @@
-# 工具类型及开发说明
+# 网站工具类型及其组件
 
 Hiplot 网站工具主要分为三种：
 
@@ -226,7 +226,8 @@ Hiplot 网站工具主要分为三种：
         "p_cutoff": 0.05,
         "fc_cutoff": 2,
         "show_top": true,
-        "show_genes_num": 10
+        "show_genes_num": 10,
+        "selected_genes": []
       }
     }
   },
@@ -286,16 +287,17 @@ UI JSON 文件主要用于自动渲染 Vue.js 应用前端。主要包括以下�
 
 - `hiplot-textarea` 表格
 - `cloud-file` 文件选择
-- `combobox` 文本输入
+- `combobox` 文本输入选择（可不在给定选项中）
 - `codemirror` 代码输入框
 
 `extra` 字段支持的类型：
 
 - `slider`: 数字滑块
-- `switch`: 是否选择
+- `switch`: 是否切换
 - `select`: 选择框
 - `autocomplete` 可以检索的选择框
 - `color-picker`：颜色选择
+- `text-field`: 文本输入
 
 以上字段和类型均可以继续扩展，参考：https://vuetifyjs.com/en/components/autocompletes/。
 
@@ -516,7 +518,6 @@ UI JSON 文件主要用于自动渲染 Vue.js 应用前端。主要包括以下�
     },
     "pq_value": {
       "type": "select",
-      "multiple": true,
       "label": "messages.basic.bubble.pq_value",
       "class": "col-12 col-md-6",
       "items": ["Q Value", "P Value", "FDR"]
@@ -692,7 +693,7 @@ Hiplot 的后台绘图脚本默认使用 R 完成。其代码主要分为数据�
 
 在该目录内可以生成任意数量的 PNG、PDF、HTML、tif 文件，以及一个 XLSX 表格文件，相关文件的下载路径将被作为结果发送至用户。
 
-对于一些输出结果较多的工具，可以在该目录下新建一个 `output` 目录作为结果输出路径，并将其中额外结果打包至一个 gzip 文件中供用户下载，如 `/path/output/s.12323.tar.gz`。
+对于一些输出结果较多的工具，可以在该目录下新建一个 `output` 目录作为结果输出路径，并将其中额外结果打包至一个 gzip 文件中供用户下载，如 `/path/s.12323.tar.gz`。
 
 ```r
 # 面积图

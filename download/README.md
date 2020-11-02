@@ -5,21 +5,21 @@
 
 hctl is the command-line client of Hiplot website. It can be used to draw plots without the web environment.
 
-Latest release version (v0.1.1):
+Latest release version (v0.1.2):
 
 **Linux:**
 
-- [hctl_0.1.1_Linux_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Linux_64-bit.tar.gz)
-- [hctl_0.1.1_Linux_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Linux_32-bit.tar.gz)
+- [hctl_0.1.2_Linux_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Linux_64-bit.tar.gz)
+- [hctl_0.1.2_Linux_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Linux_32-bit.tar.gz)
 
 **MAC OSX:**
 
-- [hctl_0.1.1_Darwin_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Darwin_64-bit.tar.gz)
+- [hctl_0.1.2_Darwin_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Darwin_64-bit.tar.gz)
 
 
 **Windows:**
-- [hctl_0.1.1_Windows_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Windows_64-bit.tar.gz)
-- [hctl_0.1.1_Windows_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Windows_32-bit.tar.gz)
+- [hctl_0.1.2_Windows_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Windows_64-bit.tar.gz)
+- [hctl_0.1.2_Windows_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Windows_32-bit.tar.gz)
 
 It is required to login Hiplot server first using the `hctl login` command. `hctl plot` command can be used to draw plots by using the parameter file and data files.
 
@@ -29,10 +29,10 @@ Demo input files of hctl can be download from here: [demo.tar.gz](https://hiplot
 ## Linux 64 Demo
 mkdir /tmp/hiplot
 cd /tmp/hiplot
-wget https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Linux_64-bit.tar.gz
+wget https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Linux_64-bit.tar.gz
 wget https://hiplot.com.cn/download/hctl/_demo.tar.gz
 
-tar -xzvf hctl_0.1.1_Linux_64-bit.tar.gz
+tar -xzvf hctl_0.1.2_Linux_64-bit.tar.gz
 tar -xzvf _demo.tar.gz
 
 ./hctl login
@@ -71,7 +71,7 @@ tar -xzvf _demo.tar.gz
 ##       --log-dir string   log dir. (default "/tmp/_log")
 ##   -o, --out-dir string   output dir. (default "/tmp")
 ##       --save-log         Save log to file.
-##   -k, --task-id string   task ID (default is random). (default "324d8a72-fe29-4a2f-8ac1-fe0be9e9d8f3")
+##   -k, --task-id string   task ID (default is random). (default "65ebbee3-ba31-4756-b626-c1a9cd597bfb")
 ##       --verbose int      verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ##   -v, --version          version for hctl
 ## 
@@ -92,21 +92,24 @@ tar -xzvf _demo.tar.gz
 ##   hctl plot -c _demo/heatmap/config2.json -t heatmap -o /tmp/hiplot-pure-remote-data-mode
 ##   hctl plot -c _demo/heatmap/config3.json -t heatmap -d _demo/heatmap/countData.txt,,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-mixed-mode
 ##   hctl plot -p _demo/heatmap/params.json -t heatmap -o /tmp/hiplot-params-mode
+##   hctl plot -p _demo/heatmap/params2.json -o /tmp/hiplot-params-mode2
+##   hctl plot -p _demo/heatmap/basic-heatmap-params.json --load-example true -o /tmp/hiplot-params-mode3
 ## 
 ## Flags:
-##   -c, --config string      json format tool config file.
-##   -d, --data string        data table file (sepreate by comma).
-##   -h, --help               help for plot
-##   -m, --module string      module name: basic, advance. (default "basic")
-##   -p, --params string      json format tool params file (exported by Hiplot).
-##       --print-links        print result links
-##       --temp-code string   task tempcode. (default "dBOZErB")
-##   -t, --tool string        tool name (e.g. heatmap).
+##   -c, --config string         json format tool config file.
+##   -d, --data string           data table file (sepreate by comma).
+##   -h, --help                  help for plot
+##       --load-example string   load example field (only work for hctl config export) (default "true")
+##   -m, --module string         module name: basic, advance. (default "basic")
+##   -p, --params string         json format tool params file (exported by Hiplot).
+##       --print-links           print result links
+##       --temp-code string      task tempcode. (default "PrcdVod")
+##   -t, --tool string           tool name (e.g. heatmap).
 ## 
 ## Global Flags:
 ##       --log-dir string   log dir. (default "/tmp/_log")
 ##   -o, --out-dir string   output dir. (default "/tmp")
 ##       --save-log         Save log to file.
-##   -k, --task-id string   task ID (default is random). (default "245cbed7-c932-411f-b41e-3045ce15a448")
+##   -k, --task-id string   task ID (default is random). (default "b331ae80-9d02-44ea-81b7-833709c27d2e")
 ##       --verbose int      verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ```

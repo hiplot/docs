@@ -5,22 +5,22 @@
 
 hctl 是 Hiplot 网站的命令行程序. 它可以让用户在命令行环境下使用 Hiplot 网站的绘图系统。
 
-最新发布版本 (v0.1.1):
+最新发布版本 (v0.1.2):
 
 **Linux:**
 
-- [hctl_0.1.1_Linux_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Linux_64-bit.tar.gz)
-- [hctl_0.1.1_Linux_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Linux_32-bit.tar.gz)
+- [hctl_0.1.2_Linux_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Linux_64-bit.tar.gz)
+- [hctl_0.1.2_Linux_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Linux_32-bit.tar.gz)
 
 **MAC OSX:**
 
-- [hctl_0.1.1_Darwin_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Darwin_64-bit.tar.gz)
+- [hctl_0.1.2_Darwin_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Darwin_64-bit.tar.gz)
 
 
 **Windows:**
 
-- [hctl_0.1.1_Windows_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Windows_64-bit.tar.gz)
-- [hctl_0.1.1_Windows_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Windows_32-bit.tar.gz)
+- [hctl_0.1.2_Windows_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Windows_64-bit.tar.gz)
+- [hctl_0.1.2_Windows_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Windows_32-bit.tar.gz)
 
 使用 hctl 进行绘图之前，用户需要使用 `hctl login` 命令获得 Hiplot 的服务授权。 登录成功后，即可使用 `hctl plot` 命令进行绘图：输入数据为一个 JSON 格式的参数文件和/或一个/多个数据表。
 
@@ -30,10 +30,10 @@ hctl 是 Hiplot 网站的命令行程序. 它可以让用户在命令行环境�
 ## Linux 64 Demo
 mkdir /tmp/hiplot
 cd /tmp/hiplot
-wget https://hiplot.com.cn/download/hctl/v0.1.1/hctl_0.1.1_Linux_64-bit.tar.gz
+wget https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Linux_64-bit.tar.gz
 wget https://hiplot.com.cn/download/hctl/_demo.tar.gz
 
-tar -xzvf hctl_0.1.1_Linux_64-bit.tar.gz
+tar -xzvf hctl_0.1.2_Linux_64-bit.tar.gz
 tar -xzvf _demo.tar.gz
 
 ./hctl login
@@ -72,7 +72,7 @@ tar -xzvf _demo.tar.gz
 ##       --log-dir string   log dir. (default "/tmp/_log")
 ##   -o, --out-dir string   output dir. (default "/tmp")
 ##       --save-log         Save log to file.
-##   -k, --task-id string   task ID (default is random). (default "2e88652a-288e-4d2a-9cf7-270eaa5df843")
+##   -k, --task-id string   task ID (default is random). (default "653f51df-f14e-4dcf-9a26-7efbe5c74c1a")
 ##       --verbose int      verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ##   -v, --version          version for hctl
 ## 
@@ -93,21 +93,24 @@ tar -xzvf _demo.tar.gz
 ##   hctl plot -c _demo/heatmap/config2.json -t heatmap -o /tmp/hiplot-pure-remote-data-mode
 ##   hctl plot -c _demo/heatmap/config3.json -t heatmap -d _demo/heatmap/countData.txt,,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-mixed-mode
 ##   hctl plot -p _demo/heatmap/params.json -t heatmap -o /tmp/hiplot-params-mode
+##   hctl plot -p _demo/heatmap/params2.json -o /tmp/hiplot-params-mode2
+##   hctl plot -p _demo/heatmap/basic-heatmap-params.json --load-example true -o /tmp/hiplot-params-mode3
 ## 
 ## Flags:
-##   -c, --config string      json format tool config file.
-##   -d, --data string        data table file (sepreate by comma).
-##   -h, --help               help for plot
-##   -m, --module string      module name: basic, advance. (default "basic")
-##   -p, --params string      json format tool params file (exported by Hiplot).
-##       --print-links        print result links
-##       --temp-code string   task tempcode. (default "pYtoKia")
-##   -t, --tool string        tool name (e.g. heatmap).
+##   -c, --config string         json format tool config file.
+##   -d, --data string           data table file (sepreate by comma).
+##   -h, --help                  help for plot
+##       --load-example string   load example field (only work for hctl config export) (default "true")
+##   -m, --module string         module name: basic, advance. (default "basic")
+##   -p, --params string         json format tool params file (exported by Hiplot).
+##       --print-links           print result links
+##       --temp-code string      task tempcode. (default "GKgFxTK")
+##   -t, --tool string           tool name (e.g. heatmap).
 ## 
 ## Global Flags:
 ##       --log-dir string   log dir. (default "/tmp/_log")
 ##   -o, --out-dir string   output dir. (default "/tmp")
 ##       --save-log         Save log to file.
-##   -k, --task-id string   task ID (default is random). (default "d26b3fb8-bd9b-4957-9bd0-165124afc83d")
+##   -k, --task-id string   task ID (default is random). (default "1fdd6168-29c7-46b7-8d07-a327c627fce6")
 ##       --verbose int      verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ```
