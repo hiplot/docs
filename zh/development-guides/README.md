@@ -31,7 +31,7 @@ Hiplot 网站工具主要分为三种：
     "tag": ["vue", "mutation"],
     "meta": {
       "score": 5,
-      "author": "Shixiang Wang",
+      "author": "Hiplot Team | Shixiang Wang",
       "email": "wangshx@shanghaitech.edu.cn",
       "issues": "https://github.com/ShixiangWang/sigminer.workflow",
       "citation": "Sigflow: an automated and comprehensive pipeline for cancer genome mutational signature analysis. Shixiang Wang, Ziyu Tao, Tao Wu, Xue-Song Liu. bioRxiv 2020.08.12.247528; doi: https://doi.org/10.1101/2020.08.12.247528",
@@ -718,8 +718,10 @@ Hiplot 的后台绘图脚本默认使用 R 完成。其代码主要分为数据�
     ggtitle(conf$general$title)
 
   ## add ggsci color palette
-  p <- p + return_hiplot_palette_color(conf$general$palette) +
-    return_hiplot_palette(conf$general$palette)
+  p <- p + return_hiplot_palette_color(conf$general$palette,
+  conf$general$palette_custom) +
+    return_hiplot_palette(conf$general$palette,
+  conf$general$palette_custom)
 
   theme <- conf$general$theme
   p <- choose_ggplot_theme(p, theme)

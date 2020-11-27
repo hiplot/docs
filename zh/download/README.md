@@ -72,7 +72,7 @@ tar -xzvf _demo.tar.gz
 ##       --log-dir string   log dir. (default "/tmp/_log")
 ##   -o, --out-dir string   output dir. (default "/tmp")
 ##       --save-log         Save log to file.
-##   -k, --task-id string   task ID (default is random). (default "653f51df-f14e-4dcf-9a26-7efbe5c74c1a")
+##   -k, --task-id string   task ID (default is random). (default "b7b0c54c-780f-4272-9980-b0fd13b071e0")
 ##       --verbose int      verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ##   -v, --version          version for hctl
 ## 
@@ -104,13 +104,13 @@ tar -xzvf _demo.tar.gz
 ##   -m, --module string         module name: basic, advance. (default "basic")
 ##   -p, --params string         json format tool params file (exported by Hiplot).
 ##       --print-links           print result links
-##       --temp-code string      task tempcode. (default "GKgFxTK")
+##       --temp-code string      task tempcode. (default "SsGmjCC")
 ##   -t, --tool string           tool name (e.g. heatmap).
 ## 
 ## Global Flags:
 ##       --log-dir string   log dir. (default "/tmp/_log")
 ##   -o, --out-dir string   output dir. (default "/tmp")
 ##       --save-log         Save log to file.
-##   -k, --task-id string   task ID (default is random). (default "1fdd6168-29c7-46b7-8d07-a327c627fce6")
+##   -k, --task-id string   task ID (default is random). (default "ab8f130b-7aaf-4090-8c97-39c1c7f10910")
 ##       --verbose int      verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ```

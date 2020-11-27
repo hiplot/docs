@@ -2,8 +2,8 @@
 
 ```r
 # load packages
-library(shiny)
-library(bs4Dash)
+pacman::p_load(shiny)
+pacman::p_load(bs4Dash)
 
 
 # ui.R
