@@ -38,6 +38,7 @@ tar -xzvf _demo.tar.gz
 
 ./hctl login
 
+# 1.调用参数和数据的多种方式
 # 只输入本地数据文件
 ./hctl plot -c _demo/heatmap/config.json -t heatmap -d _demo/heatmap/countData.txt,_demo/heatmap/sampleInfo.txt,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-pure-data-mode
 
@@ -49,6 +50,19 @@ tar -xzvf _demo.tar.gz
 
 # 使用 Hiplot 网站导出的参数文件
 ./hctl plot -p _demo/heatmap/params.json -t heatmap -o /tmp/hiplot-params-mode
+
+# 2.快速使用的简单步骤
+# 2.1 查看HCTL支持的程序
+./hctl config -l
+
+# 2.2 从远程服务器获取特定程序的参数文件
+./hctl config basic/heatmap -o .
+
+# 2.3 基于上步获取的参数文件（可以修改参数）运行示例数据
+./hctl plot -p ./basic-heatmap-params.json -o .
+
+# 2.4 基于上步获取的参数文件（可以修改参数）运行本地数据
+./hctl plot -p ./basic-heatmap-params.json -d _demo/heatmap/countData.txt,_demo/heatmap/sampleInfo.txt,_demo/heatmap/geneInfo.txt -o .
 ```
 
 ### 命令行主程序
