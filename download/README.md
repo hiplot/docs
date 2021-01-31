@@ -37,6 +37,7 @@ tar -xzvf _demo.tar.gz
 
 ./hctl login
 
+# 1.Config or parameter file is supported.
 # only input data files
 ./hctl plot -c _demo/heatmap/config.json -t heatmap -d _demo/heatmap/countData.txt,_demo/heatmap/sampleInfo.txt,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-pure-data-mode
 
@@ -48,6 +49,19 @@ tar -xzvf _demo.tar.gz
 
 # hiplot exported param
 ./hctl plot -p _demo/heatmap/params.json -t heatmap -o /tmp/hiplot-params-mode
+
+# 2.Quickly using.
+# 2.1 List all apps supported by HCTL
+./hctl config -l
+
+# 2.2 Get parameter file from remote.
+./hctl config basic/heatmap -o .
+
+# 2.3 Run example data based on parameter file.
+./hctl plot -p ./basic-heatmap-params.json -o .
+
+# 2.4 Run user data based on parameter file.
+./hctl plot -p ./basic-heatmap-params.json -d _demo/heatmap/countData.txt,_demo/heatmap/sampleInfo.txt,_demo/heatmap/geneInfo.txt -o .
 ```
 
 ### Main Interface
