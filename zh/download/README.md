@@ -38,7 +38,6 @@ tar -xzvf _demo.tar.gz
 
 ./hctl login
 
-# 1.调用参数和数据的多种方式
 # 只输入本地数据文件
 ./hctl plot -c _demo/heatmap/config.json -t heatmap -d _demo/heatmap/countData.txt,_demo/heatmap/sampleInfo.txt,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-pure-data-mode
 
@@ -50,19 +49,6 @@ tar -xzvf _demo.tar.gz
 
 # 使用 Hiplot 网站导出的参数文件
 ./hctl plot -p _demo/heatmap/params.json -t heatmap -o /tmp/hiplot-params-mode
-
-# 2.快速使用的简单步骤
-# 2.1 查看HCTL支持的程序
-./hctl config -l
-
-# 2.2 从远程服务器获取特定程序的参数文件
-./hctl config basic/heatmap -o .
-
-# 2.3 基于上步获取的参数文件（可以修改参数）运行示例数据
-./hctl plot -p ./basic-heatmap-params.json -o .
-
-# 2.4 基于上步获取的参数文件（可以修改参数）运行本地数据
-./hctl plot -p ./basic-heatmap-params.json -d _demo/heatmap/countData.txt,_demo/heatmap/sampleInfo.txt,_demo/heatmap/geneInfo.txt -o .
 ```
 
 ### 命令行主程序
@@ -86,7 +72,7 @@ tar -xzvf _demo.tar.gz
 ##       --log-dir string   log dir. (default "/tmp/_log")
 ##   -o, --out-dir string   output dir. (default "/tmp")
 ##       --save-log         Save log to file.
-##   -k, --task-id string   task ID (default is random). (default "b7b0c54c-780f-4272-9980-b0fd13b071e0")
+##   -k, --task-id string   task ID (default is random). (default "a659ebdc-3421-41d4-be61-d8dc3d9eaa87")
 ##       --verbose int      verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ##   -v, --version          version for hctl
 ## 
@@ -118,13 +104,13 @@ tar -xzvf _demo.tar.gz
 ##   -m, --module string         module name: basic, advance. (default "basic")
 ##   -p, --params string         json format tool params file (exported by Hiplot).
 ##       --print-links           print result links
-##       --temp-code string      task tempcode. (default "SsGmjCC")
+##       --temp-code string      task tempcode. (default "pvn0SbE")
 ##   -t, --tool string           tool name (e.g. heatmap).
 ## 
 ## Global Flags:
 ##       --log-dir string   log dir. (default "/tmp/_log")
 ##   -o, --out-dir string   output dir. (default "/tmp")
 ##       --save-log         Save log to file.
-##   -k, --task-id string   task ID (default is random). (default "ab8f130b-7aaf-4090-8c97-39c1c7f10910")
+##   -k, --task-id string   task ID (default is random). (default "e6ad0001-7a78-4bd1-a783-0d1de69e257e")
 ##       --verbose int      verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ```

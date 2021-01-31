@@ -37,7 +37,6 @@ tar -xzvf _demo.tar.gz
 
 ./hctl login
 
-# 1.Config or parameter file is supported.
 # only input data files
 ./hctl plot -c _demo/heatmap/config.json -t heatmap -d _demo/heatmap/countData.txt,_demo/heatmap/sampleInfo.txt,_demo/heatmap/geneInfo.txt -o /tmp/hiplot-pure-data-mode
 
@@ -49,19 +48,6 @@ tar -xzvf _demo.tar.gz
 
 # hiplot exported param
 ./hctl plot -p _demo/heatmap/params.json -t heatmap -o /tmp/hiplot-params-mode
-
-# 2.Quickly using.
-# 2.1 List all apps supported by HCTL
-./hctl config -l
-
-# 2.2 Get parameter file from remote.
-./hctl config basic/heatmap -o .
-
-# 2.3 Run example data based on parameter file.
-./hctl plot -p ./basic-heatmap-params.json -o .
-
-# 2.4 Run user data based on parameter file.
-./hctl plot -p ./basic-heatmap-params.json -d _demo/heatmap/countData.txt,_demo/heatmap/sampleInfo.txt,_demo/heatmap/geneInfo.txt -o .
 ```
 
 ### Main Interface
@@ -85,7 +71,7 @@ tar -xzvf _demo.tar.gz
 ##       --log-dir string   log dir. (default "/tmp/_log")
 ##   -o, --out-dir string   output dir. (default "/tmp")
 ##       --save-log         Save log to file.
-##   -k, --task-id string   task ID (default is random). (default "0d4f714b-b882-4520-8d61-4b5d872aa5ba")
+##   -k, --task-id string   task ID (default is random). (default "5d80148b-4e18-43ac-bb70-530b5529beec")
 ##       --verbose int      verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ##   -v, --version          version for hctl
 ## 
@@ -117,13 +103,13 @@ tar -xzvf _demo.tar.gz
 ##   -m, --module string         module name: basic, advance. (default "basic")
 ##   -p, --params string         json format tool params file (exported by Hiplot).
 ##       --print-links           print result links
-##       --temp-code string      task tempcode. (default "FVESxpl")
+##       --temp-code string      task tempcode. (default "TzsGc4H")
 ##   -t, --tool string           tool name (e.g. heatmap).
 ## 
 ## Global Flags:
 ##       --log-dir string   log dir. (default "/tmp/_log")
 ##   -o, --out-dir string   output dir. (default "/tmp")
 ##       --save-log         Save log to file.
-##   -k, --task-id string   task ID (default is random). (default "06c073c3-b182-4ba0-a38d-d49fabbf8864")
+##   -k, --task-id string   task ID (default is random). (default "f1a9fa3d-958b-4fae-ad9c-4fd825b0dc73")
 ##       --verbose int      verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ```
