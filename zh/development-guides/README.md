@@ -74,7 +74,7 @@ Hiplot 网站工具主要分为三种：
   "exampleData": {
     "config": {
       "general": {
-        "title": "Test Area Plot"
+        "title": "Area Plot"
       }
     },
     "textarea": {
@@ -171,7 +171,7 @@ Hiplot 网站工具主要分为三种：
         }
       },
       "general": {
-        "title": "Test Heatmap Plot"
+        "title": "Heatmap Plot"
       }
     },
     "textarea": {
@@ -247,7 +247,7 @@ Hiplot 网站工具主要分为三种：
         ]
       },
       "general": {
-        "title": "Test Volcano Plot"
+        "title": "Volcano Plot"
       }
     },
     "textarea": {
@@ -296,6 +296,7 @@ UI JSON 文件主要用于自动渲染 Vue.js 应用前端。主要包括以下�
 - `switch`: 是否切换
 - `select`: 选择框
 - `autocomplete` 可以检索的选择框
+- `combobox` 文本输入选择（可不在给定选项中）
 - `color-picker`：颜色选择
 - `text-field`: 文本输入
 
