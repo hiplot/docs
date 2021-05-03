@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hiplot"
+    "url": "git+https://github.com/hiplot/docs"
   },
   "keywords": [
     "documentation",
     "vue",
     "generator"
   ],
-  "author": "Tengyun Bio",
+  "author": "Hiplot team",
   "bugs": {
-    "url": "https://github.com/hiplot/issues"
+    "url": "https://github.com/hiplot/gold/issues"
   },
-  "homepage": "https://openbiox.org/wiki",
+  "homepage": "https://hiplot.com.cn/docs",
   "devDependencies": {
     "@hapi/hoek": "^9.2.0",
     "@vuepress/plugin-back-to-top": "^1.8.2",
@@ -42,7 +42,10 @@
     "vuepress": "^1.8.2",
     "vuepress-plugin-flowchart": "^1.4.2",
     "websocket-extensions": "^0.1.4",
-    "yargs-parser": "^20.2.7"
-  },
-  "dependencies": {}
+    "yargs-parser": "^20.2.7",
+    "sockjs": "^0.3.20",
+    "ssri": "^6.0.2",
+    "y18n": "^4.0.1",
+    "is-svg": "^4.2.2"
+  }
 }
