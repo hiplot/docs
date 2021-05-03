@@ -57,8 +57,10 @@ module.exports = {
                         children: [
                             '/',
                             '/modules',
+                            '/hisub',
                             '/env',
                             '/download/',
+                            '/qa',
                             '/contribute',
                             '/about'
                         ]
@@ -67,7 +69,9 @@ module.exports = {
                         "title": 'Getting Started',
                         collapsable: true,
                         children: [
-                            '/usage/basic/'
+                            '/usage/basic/',
+                            '/usage/advance/',
+                            '/usage/mini-tools/'
                         ]
                     }
                 ],
@@ -99,6 +103,7 @@ module.exports = {
                         children: [
                             '/zh/',
                             '/zh/modules',
+                            '/zh/hisub',
                             '/zh/download/'
                         ]
                     },
@@ -106,7 +111,9 @@ module.exports = {
                         "title": '入门指南',
                         collapsable: true,
                         children: [
-                            '/zh/usage/basic/'
+                            '/zh/usage/basic/',
+                            '/zh/usage/advance/',
+                            '/zh/usage/mini-tools/'
                         ]
                     },
                     {

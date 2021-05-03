@@ -1,5 +1,30 @@
 # Summary of modules
 
+All available modules of Hiplot are listed in left panel of the website.
+
+- [Home](https://hiplot.com.cn)
+- [Basic Module](https://hiplot.com.cn/basic)
+- [Advanced Module](https://hiplot.com.cn/advance)
+- [Clinical Tools](https://hiplot.com.cn/clinical-tools)
+- [Mini Tools](https://hiplot.com.cn/mini-tools)
+- [Books](https://hiplot.com.cn/books)
+- [File Manager](https://hiplot.com.cn/file-manager)
+- [Account Center](https://hiplot.com.cn/account-center)
+- [Developer Center](https://hiplot.com.cn/developer-center)
+- [Developer Wall](https://hiplot.com.cn/developer-wall)
+
+Now, the major functions of Hiplot are provided by [Basic Module](https://hiplot.com.cn/basic), [Advanced Module](https://hiplot.com.cn/advance), and [Mini Tools](https://hiplot.com.cn/mini-tools). All applications are displayed as card matrices in the module of Hiplot. The application card contains the basic information including the name, one-sentence introduction, scores, and tags.
+
+![Navigation Page](https://s1.imagehub.cc/images/2021/05/03/navigation-tuya.jpg)
+
+## Basic module
+
+The basic module can be used to do basic scientific visualization tasks.
+
+## Advanced Module
+
+The advanced module can be used to do more complex tasks.
+
 ## File Manager
 
 Users can upload the files using the web interface and RESTful APIs:
@@ -33,39 +58,3 @@ The meaning of the bottom buttons:
 - copy selected directories and files to another directory
 - move selected directories and files to another directory
 - delete selected directories and files
-
-## Visualization Plugins
-
-Visualization plugins of Hiplot are divided into two parts:
-
-- basic
-- advance
-
-The basic module can be used to plot several basic plots for scientific data (e.g. boxplot and heatmap), and most are one plugin one plot.
-
-The advanced module can be used to plot more complex items (e.g. output HTML or PDF report and personalized data visualization process).
-
-A visualization plugin of Hiplot mainly contains six-part:
-
-- data importer or selector (table and input box)
-- data arguments
-- general parameters (e.g. title, width, height, alpha, and task name), which are shared by all plugins
-- extra parameters, which is plugin-specific (e.g. circle shape for correlation heatmap)
-- preview window (e.g. HTML, PDF, PNG/JPG, Table), support export
-- server-side R script and RESTful APIs
-
-![Demo of Hiplot correlation heatmap](https://s1.ax1x.com/2020/07/08/UV5zGQ.png)
-
-## Extra Module
-
-Apart from the interactive plots, Hiplot also supports users to submit other types of tasks, e.g. download data files or publications.
-
-![Demo to submit bget task](https://s1.ax1x.com/2020/07/08/UVIgzj.png)
-
-Like the following picture, we submit a [bget](https://github.com/openanno/bget) task to query the paper and the supplementary files of publication.
-
-After submit, the user can view the tasks status and detail information (e.g. log and download result):
-
-![View task status](https://s1.ax1x.com/2020/07/08/UVIRQs.png)
-
-![View detail information of submitted task](https://s1.ax1x.com/2020/07/08/UVoiSH.png)

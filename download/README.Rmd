@@ -3,25 +3,45 @@
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+## Desktop Client
+
+We build the desktop client of Hiplot based on the [Electron](https://www.electronjs.org/). The demo data and UI components are fixed in the desktop client under the given version.
+
+Latest release version (v0.1.0):
+
+**Linux:**
+
+- [Hiplot_Desktop_0.1.0_Linux_x86_64.AppImage](https://hiplot.com.cn/download/desktop/v0.1.0/Hiplot_Desktop_0.1.0_Linux_x86_64.AppImage)
+- [Hiplot_Desktop_0.1.0_Linux_amd64.snap](https://hiplot.com.cn/download/desktop/v0.1.0/Hiplot_Desktop_0.1.0_Linux_amd64.snap)
+
+**Windows:**
+
+- [Hiplot_Desktop_0.1.0_Windows.exe](https://hiplot.com.cn/download/desktop/v0.1.0/Hiplot_Desktop_0.1.0_Windows.exe)
+
+**MAC OSX**
+
+- [Hiplot_Desktop_0.1.0_Darwin.dmg](https://hiplot.com.cn/download/desktop/v0.1.0/Hiplot_Desktop_0.1.0_Darwin.dmg)
+
 ## hctl
 
 hctl is the command-line client of Hiplot website. It can be used to draw plots without the web environment.
 
-Latest release version (v0.1.2):
+Latest release version (v0.1.3):
 
 **Linux:**
 
-- [hctl_0.1.2_Linux_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Linux_64-bit.tar.gz)
-- [hctl_0.1.2_Linux_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Linux_32-bit.tar.gz)
+- [hctl_0.1.3_Linux_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.3/hctl_0.1.3_Linux_64-bit.tar.gz)
+- [hctl_0.1.3_Linux_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.3/hctl_0.1.3_Linux_32-bit.tar.gz)
 
 **MAC OSX:**
 
-- [hctl_0.1.2_Darwin_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Darwin_64-bit.tar.gz)
+- [hctl_0.1.3_Darwin_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.3/hctl_0.1.3_Darwin_64-bit.tar.gz)
 
 
 **Windows:**
-- [hctl_0.1.2_Windows_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Windows_64-bit.tar.gz)
-- [hctl_0.1.2_Windows_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Windows_32-bit.tar.gz)
+- [hctl_0.1.3_Windows_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.3/hctl_0.1.3_Windows_64-bit.tar.gz)
+- [hctl_0.1.3_Windows_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.3/hctl_0.1.3_Windows_32-bit.tar.gz)
 
 It is required to login Hiplot server first using the `hctl login` command. `hctl plot` command can be used to draw plots by using the parameter file and data files.
 
@@ -31,10 +51,10 @@ Demo input files of hctl can be download from here: [demo.tar.gz](https://hiplot
 ## Linux 64 Demo
 mkdir /tmp/hiplot
 cd /tmp/hiplot
-wget https://hiplot.com.cn/download/hctl/v0.1.2/hctl_0.1.2_Linux_64-bit.tar.gz
+wget https://hiplot.com.cn/download/hctl/v0.1.3/hctl_0.1.3_Linux_64-bit.tar.gz
 wget https://hiplot.com.cn/download/hctl/_demo.tar.gz
 
-tar -xzvf hctl_0.1.2_Linux_64-bit.tar.gz
+tar -xzvf hctl_0.1.3_Linux_64-bit.tar.gz
 tar -xzvf _demo.tar.gz
 
 ./hctl login

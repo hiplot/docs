@@ -1,3 +1,3 @@
 # About Us
 
-Hiplot Team members mainly come from the [openbiox](https://github.com/openbiox) communitiy.
+Hiplot team members mainly come from the [openbiox](https://github.com/openbiox) communitiy.

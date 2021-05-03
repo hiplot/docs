@@ -59,7 +59,7 @@ Hiplot 网站工具主要分为三种：
     "config": {
       "general": {
         "cmd": "",
-        "imageExportType": ["png", "pdf"],
+        "imageExportType": ["jpeg", "pdf"],
         "size": {
           "width": 4,
           "height": 2.5
@@ -97,7 +97,7 @@ Hiplot 网站工具主要分为三种：
 
 - `data`（数据参数）：用于数据输入，存放文件和非表格类字符串类型数据。当输入为文件，且存在与 `textarea` 保持同名，则可以支持表格和文件输入的模式切换。
 - `dataArg`（数据列选择）：用于选择数据表指定列，如火山图中的 `Symbol`、`P.Value`、`logFc`。
-- `general` (通用参数)：`cmd` 用于后续开发编程接口、`imageExportType` 设置图片导出类型、`size` 控制导出图片的大小、`theme` 为 ggplot2 主题、`palette` 为离散型颜色主题、`palette_cont` 为连续型颜色主题、`title` 标题名。
+- `general` (通用参数)：`cmd` 用于后续开发编程接口、`imageExportType` 设置图片导出类型、`size` 控制导出图片的大小、`theme` 为 ggplot2 主题、`palette` 为离散型颜色主题、`paletteCont` 为连续型颜色主题、`title` 标题名。
 - `extra`（附加参数）：所有非通用参数均在此字段设置。
 
 `textarea`、`data`、`dataArg` 以及 `extra` 字段需要配合 UI JSON 格式文件才可以发挥作用。更复杂的 Data JSON 格式文件如以下所示。
@@ -132,7 +132,7 @@ Hiplot 网站工具主要分为三种：
       "general": {
         "cmd": "",
         "imageExportType": [
-          "png",
+          "jpeg",
           "pdf"
         ],
         "size": {
@@ -158,15 +158,15 @@ Hiplot 网站工具主要分为三种：
     "config": {
       "data": {
         "1-countData": {
-          "value": "/public/demo/heatmap/countData.txt",
+          "value": "public/demo/heatmap/countData.txt",
           "link": ""
         },
         "2-sampleInfo": {
-          "value": "/public/demo/heatmap/sampleInfo.txt",
+          "value": "public/demo/heatmap/sampleInfo.txt",
           "link": ""
         },
         "3-geneInfo": {
-          "value": "/public/demo/heatmap/geneInfo.txt",
+          "value": "public/demo/heatmap/geneInfo.txt",
           "link": ""
         }
       },
@@ -210,7 +210,7 @@ Hiplot 网站工具主要分为三种：
       "general": {
         "cmd": "",
         "imageExportType": [
-          "png",
+          "jpeg",
           "pdf"
         ],
         "size": {
@@ -302,7 +302,7 @@ UI JSON 文件主要用于自动渲染 Vue.js 应用前端。主要包括以下�
 
 以上字段和类型均可以继续扩展，参考：https://vuetifyjs.com/en/components/autocompletes/。
 
-`items_func` 可以通过执行 JavaScript 函数去设置选择框可选参数，其中 `this.select_cols` 函数可以用于根据前端数据表获取某列的所有值作为可选择项（第一个参数为数据表字段名、第二个参数指定列，从 0 开始计数）。
+`items_func` 可以通过执行 JavaScript 函数去设置选择框可选参数，其中 `this.selectCols` 函数可以用于根据前端数据表获取某列的所有值作为可选择项（第一个参数为数据表字段名、第二个参数指定列，从 0 开始计数）。
 
 `if` 可以设置动态显示某些 UI 组件，它的值需为 `extra` 字段中的某个值。
 
@@ -428,7 +428,7 @@ UI JSON 文件主要用于自动渲染 Vue.js 应用前端。主要包括以下�
     "datTable": {
       "type": "hiplot-textarea",
       "required": true,
-      "label": "messages.extra.dataTable"
+      "label": "messages.common.dataTable"
     }
   },
   "dataArg": {
@@ -477,7 +477,7 @@ UI JSON 文件主要用于自动渲染 Vue.js 应用前端。主要包括以下�
       "label": "messages.basic.volcano.selected_genes",
       "class": "col-12 col-md-6",
       "if": "show_top",
-      "items_func": "this.select_cols('datTable', 0)"
+      "items_func": "this.selectCols('datTable', 0)"
     }
   }
 }
@@ -720,9 +720,9 @@ Hiplot 的后台绘图脚本默认使用 R 完成。其代码主要分为数据�
 
   ## add ggsci color palette
   p <- p + return_hiplot_palette_color(conf$general$palette,
-  conf$general$palette_custom) +
+  conf$general$paletteCustom) +
     return_hiplot_palette(conf$general$palette,
-  conf$general$palette_custom)
+  conf$general$paletteCustom)
 
   theme <- conf$general$theme
   p <- choose_ggplot_theme(p, theme)
@@ -732,7 +732,7 @@ Hiplot 的后台绘图脚本默认使用 R 完成。其代码主要分为数据�
 #          output section
 #####################################
 {
-  export_single(p, opt, conf)
+  export_single(p)
 }
 ```
 
