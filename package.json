@@ -37,7 +37,7 @@
     "kind-of": "^6.0.3",
     "lodash": "^4.17.21",
     "node-forge": "^0.10.0",
-    "prismjs": "^1.23.0",
+    "prismjs": "^1.25.0",
     "serialize-javascript": "^5.0.1",
     "vuepress": "^1.8.2",
     "vuepress-plugin-flowchart": "^1.4.2",
