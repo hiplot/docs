@@ -218,6 +218,15 @@ The color group barplot can be used to display data values in groups, and to lab
 
   Add Numeric Lable:Add numeric lable
 
+## [Beanplot](/basic/beanplot)
+
+- Introduction
+
+  The beanplot is a method of visualizing the distribution characteristics.
+
+- Analysis of case data
+
+  The loaded data is data set (data on treatment outcomes of different treatment regimens).
 ## [Beeswarm](/basic/beeswarm)
 
 - Introduction 
@@ -272,6 +281,11 @@ The color group barplot can be used to display data values in groups, and to lab
 
   Color Theme:Displays the color theme for the P value
 
+## [Bumpchart](/basic/bumpchart)
+
+- Introduction
+
+Bump chart can be used to display the change of grouped values.
 ## [Calibration Curve](/basic/calibration-curve)
 
 - ### Function Introduction
@@ -538,7 +552,11 @@ The color group barplot can be used to display data values in groups, and to lab
 
   Add Lable Color:After clustering, samples with similar names and colors are similar
 
-## [Density](/basic/density)
+## [Mirror Density & Histogram](/basic/density-hist-mirror)
+
+- Introduction
+
+  The mirror density & histogram is a graph used to observe the distribution of continuous variables in two side view: top and bottom## [Density](/basic/density)
 
 - Introduction
 
@@ -631,6 +649,11 @@ Coefficient: used for scaling of the second Y-axis scale
 Color1: The color of the first polyline
 
 Color2: The second discounted color
+## [Dumbbell](/basic/dumbbell)
+
+- Introduction
+
+Dumbbell chart can be used to display the change of values.
 ## [Eulerr](/basic/eulerr)
 
 - Introduction
@@ -735,6 +758,34 @@ Detail: https://github.com/chrisamiller/fishplot
   Vline of Color: Color of timepoints vline
 
   Border of Color: Color of border
+## [Flowerplot](/basic/flowerplot)
+
+- Introduction
+
+  The flowerplot is used to display  all possible logical relations between a finite collection of different sets .
+
+- Analysis of case data
+
+  The loaded data is a multiple column data frame with different sets .
+
+- Extra Parameters
+
+  angle: set the angle of rotation in degress.
+
+  a: set the radii of the ellipses along the x-axes.
+
+  b: set the radii of the ellipses along the y-axes.
+
+  r: set the radius of the central circle.
+
+  ellipse_col_pal: set the color palette for filling the ellipse.
+
+  circle_col: set the color for filling the central circle.
+
+  lab_size: set the label text cex.
+
+
+
 ## [Gantt](/basic/gantt)
 
 - Introduction 
@@ -1035,7 +1086,11 @@ Try plotting and if you have any problem with the parameters, check <https://rpk
 
   Bins: Change the width of the rectangle
 
-## [Line Regression（errorbar)](/basic/line-errorbar)
+## [Likert Plot](/basic/likert)
+
+- Introduction
+
+  Descriptive statistical analysis of Likert scale data## [Line Regression（errorbar)](/basic/line-errorbar)
 
 - Introduction
 
@@ -1219,6 +1274,52 @@ metawho is powered by R package metafor and does not support dataset contains in
   The first row of the diagram shows the name of the restaurant, the first column shows different variables in the restaurant, the blank moon represents the number of 1 (the least number), the black moon represents the number of 5 (the most number) data, as the number of data increases, the black area of the moon gradually becomes larger, that is, gradually becomes full moon.
 
 
+## [Mosaic Ratio Plot](/basic/likert)
+
+- Introduction
+
+  Can be used to display the ratio using mosaic
+## [Network (igraph)](/basic/network-igraph)
+
+- Introduction
+
+  Network (igraph) can be used to visulize basic network based on igraph.
+
+- Data Table
+
+   Two data tables need to be entered. Table 1 is node information, including node ID and other annotation information, which can be used to map color and size. Table 2 is the link information, including node ID and connection information between nodes
+
+- Data args
+
+   Label Column: used to label node names
+
+   Color Column: used to map node and connection colors
+
+   Node Size Column: used to map node size. If not set, the degrees (#links) of nodes will be used
+
+   Mark Group Column: convert the selected types of nodes by using irregular color graphics
+
+   Line Width Column: used to map the line width
+
+- Extra parameters
+
+   Layout: set the distribution style of the nodes and lines of the network diagram
+
+   Line Type: set type of lines
+
+   Node Shape: set shape of nodes
+
+   Transform (size): used to scale and transform node size column data
+
+   Transform (width): used to scale and transform the line width column data
+
+   Label Distance: control the distance between label and graph
+
+## [Nomogram (Logistic)](/basic/nomogram-logist)
+
+- Introduction
+
+    Nomogram is often used to evaluate the prognosis of oncology and medicine, and can visualize the results of logistic regression or Cox regression.
 ## [nomogram](/basic/nomogram)
 
 - ### Function Introduction
@@ -1555,6 +1656,11 @@ The input data table should contains at least 3 columns. The first two columns c
 
   Change Point Shape:Different groups have different shapes.
 
+## [slopegraph](/basic/slopegraph)
+
+- Introduction
+
+Sopegraph can be used to display the change of values.
 ## [Stack Violin](/basic/stack-violin)
 
 - ### Function Introduction
