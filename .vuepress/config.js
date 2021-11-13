@@ -71,7 +71,8 @@ module.exports = {
                         children: [
                             '/usage/basic/',
                             '/usage/advance/',
-                            '/usage/mini-tools/'
+                            '/usage/mini-tools/',
+                            '/usage/clinical-tools/'
                         ]
                     }
                 ],
@@ -113,7 +114,8 @@ module.exports = {
                         children: [
                             '/zh/usage/basic/',
                             '/zh/usage/advance/',
-                            '/zh/usage/mini-tools/'
+                            '/zh/usage/mini-tools/',
+                            '/zh/usage/clinical-tools/'
                         ]
                     },
                     {
