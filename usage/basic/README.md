@@ -111,8 +111,11 @@ The color group barplot can be used to display data values in groups, and to lab
     
     Bar border color: error bar border color
     
+    **Other notes**
 
+    P-values for two columns of data are calculated by comparison with all samples
 
+    P-values for three columns of data are whether there is a difference within the group
 
 ## [Gradient Barplot](/basic/barplot-gradient)
 
@@ -241,6 +244,11 @@ The color group barplot can be used to display data values in groups, and to lab
 
   Different colors represent different groups, and dots represent data.
 
+## [Bivariate](/basic/bivariate)
+
+- Introduction
+
+  Display multiple bi-variables relationship.
 ## [Box plot](/basic/boxplot)
 
 - Introduction
@@ -654,6 +662,16 @@ Color2: The second discounted color
 - Introduction
 
 Dumbbell chart can be used to display the change of values.
+## [Easy Pairs](/basic/easy-pairs)
+
+- Introduction
+
+  Display a matrix of plots for viewing correlation relationship and distributions of multiple variables.
+## [SOM Model Vis](/basic/easy-som)
+
+- Introduction
+
+  Establish the SOM model and conduct the visulization.
 ## [Eulerr](/basic/eulerr)
 
 - Introduction
@@ -1486,6 +1504,19 @@ Detail introduction about [PCAtools](http://www.bioconductor.org/packages/releas
 
   In a circle graph, the arc length of each slice (the arc length of its center Angle and the region corresponding to its center Angle) is proportional to the number represented. The pie chart shows the number of samples for the 1 to 4 components and the corresponding proportions. The number of samples in one group is 13, accounting for 11.71%; the number of samples in two groups is 34, accounting for 30.63%; the number of samples in three groups is 21, accounting for 18.92%; and the number of samples in four groups is 43, accounting for 38.74%.
 
+## [Pyramid Chart2](/basic/pyramid-chart2)
+
+- Introduction
+
+  The pyramid chart is a pyramid-like figure that distributes data on both sides of a central axis.
+
+- Analysis of case data
+
+  The loaded data are age, gender, and the number of people after the combination of the first two variables .
+
+- Interpretation of case statistics graphics
+
+  The graph shows the age groups from bottom to top in order on the central axis, the left side represents the number of men, the right side represents the number of women, and the X-axis represents the number of people. The graph clearly shows the proportion of men and women in different age groups and the proportion of different age groups in the same gender.
 ## [Pyramid Chart](/basic/pyramid-chart)
 
 - Introduction
@@ -1936,7 +1967,7 @@ Sopegraph can be used to display the change of values.
 
   The closed curve of 5 colors represents 5 sets, and the number represents the number of overlapping or non-overlapping genes in multiple sets. For example, 8 in the sample figure represents 8 identical gene names in 5 sample sets.
 
-## [violin-group](/basic/violin-group)
+## [Violin-Group](/basic/violin-group)
 
 - ### Function Introduction
 
