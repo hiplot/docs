@@ -94,7 +94,7 @@ tar -xzvf _demo.tar.gz
 ##   -o, --out-dir string    output dir. (default "/tmp")
 ##       --proxy string      HTTP proxy to query.
 ##       --save-log          Save log to file.
-##   -k, --taskname string   task ID (default is random). (default "7e06a1b1-c009-4268-bd46-6c5c2cf2c88e")
+##   -k, --taskname string   task ID (default is random). (default "211b7d56-567b-4e6d-ae5e-c2bd7689dc66")
 ##       --timeout int       set the timeout of per request. (default 35)
 ##       --verbose int       verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ##   -v, --version           version for hctl
@@ -131,7 +131,7 @@ tar -xzvf _demo.tar.gz
 ##   -m, --module string         module name: basic, advance. (default "basic")
 ##   -p, --params string         json format tool params file (exported by Hiplot).
 ##       --print-links           print result links
-##       --temp-code string      task tempcode. (default "xLosAuz")
+##       --temp-code string      task tempcode. (default "RwqHFKd")
 ##   -t, --tool string           tool name (e.g. heatmap).
 ## 
 ## Global Flags:
@@ -139,7 +139,7 @@ tar -xzvf _demo.tar.gz
 ##   -o, --out-dir string    output dir. (default "/tmp")
 ##       --proxy string      HTTP proxy to query.
 ##       --save-log          Save log to file.
-##   -k, --taskname string   task ID (default is random). (default "44bb51cb-c145-42b2-b583-593d5c3ab826")
+##   -k, --taskname string   task ID (default is random). (default "adfa7410-e903-44ca-8378-593737f6d2ab")
 ##       --timeout int       set the timeout of per request. (default 35)
 ##       --verbose int       verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ```

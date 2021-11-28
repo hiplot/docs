@@ -435,7 +435,15 @@
     Scale: 弦图是否按元素多少自由缩放占比展示
     
     
-## [等高线图（矩阵）](/basic/contour-matrix)
+[复合热图](/basic/complex-heatmap)
+
+- 简介
+
+  一个多组学插件同时绘制热图、注释和突变信息。
+
+- 数据参数列
+
+  第一个值指定突变开始列。第二个值指定热图表达矩阵开始列。## [等高线图（矩阵）](/basic/contour-matrix)
 
 - 简介
 
@@ -496,7 +504,21 @@
 - X 轴：设置显示在 X 轴的变量。
 - Y 轴：设置显示在 X 轴的变量。
 
-更多信息查看[内部函数实现](https://shixiangwang.github.io/sigminer/reference/show_cor.html)。## [ggplot2 词云](/basic/ggwordcloud)
+更多信息查看[内部函数实现](https://shixiangwang.github.io/sigminer/reference/show_cor.html)。## [相关性热图 2](/basic/cor-heatmap2)
+
+- 简介
+
+  相关性热图是一种分析多个变量，两两之间相关性的图形。
+
+- 案例数据分析
+
+  载入数据为基因名称及每个样本的表达量。
+
+- 案例统计图形分析
+
+  红色系表示两个基因之间呈正相关，蓝色系表示两个基因之间呈负相关，每一格中的数字表示相关系数。
+
+## [ggplot2 词云](/basic/ggwordcloud)
 
 - 简介
 

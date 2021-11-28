@@ -1,6 +1,11 @@
 # 小工具箱
 
-## [PDF Collage](/basic/pdf-collage)
+## [颜色提取工具](/mini-tools/extract-colors)
+
+- 简介
+
+  可以用于从图片中识别颜色生成色板。
+## [PDF Collage](/mini-tools/pdf-collage)
 
 - 简介
 

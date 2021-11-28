@@ -19,6 +19,9 @@
   参考基因版本 | 基因组版本号：hg38 或 hg19
   
   输出野生型基因 | 同时输出野生型基因结构
+## [Chromsomes-Scatter](/advance/chromsomes-scatter)
+
+染色体坐标可视化数值分布。
 ## [ClusterProfiler GO/KEGG](/advance/clusterprofiler-go-kegg)
 
 详细参数见 [ClusterProfiler Books](https://hiplot.com.cn/books-static/clusterprofiler-book).
@@ -44,6 +47,14 @@
 新增加的 2 个参数不属于 GISTIC2 软件本身，它们被设计用来处理 GISTIC2 报告 Overlap 相关错误：
 
 - 预处理 Overlap 片段：激活预处理。
-- 预处理最少探针数：如果预处理被激活，该参数可以用来过滤掉小于该参数值的拷贝数片段。 ## [Pathview](/advance/pathview)
+- 预处理最少探针数：如果预处理被激活，该参数可以用来过滤掉小于该参数值的拷贝数片段。 ## [染色体热图](/advance/ideogram-heat)
+
+染色体坐标可视化数值分布。
+## [突变全景图](/advance/oncoplot)
+
+- 简介
+
+  突变全景图可以用于展示癌症队列基因组突变概貌。
+  ## [Pathview](/advance/pathview)
 
 计算平均表达量，然后在 KEGG 通路中进行展示。

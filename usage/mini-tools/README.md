@@ -1,6 +1,11 @@
 # Mini Tools
 
-## [PDF Collage](/basic/pdf-collage)
+## [Extract Colors](/mini-tools/extract-colors)
+
+- Introduction
+
+  Can be used to extract the colors from images.
+## [PDF Collage](/mini-tools/pdf-collage)
 
 - Introduction
 

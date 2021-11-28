@@ -19,6 +19,9 @@ Can be used to visualize the structural pattern of fusion genes at the one-dimen
    Reference gene version | Genome version number: hg38 or hg19
 
    Output WT Gene | Output WT gene structure
+## [Chromsomes-Scatter](/advance/chromsomes-scatter)
+
+Visualize values at chromosomal level.
 ## [ClusterProfiler GO/KEGG](/advance/clusterprofiler-go-kegg)
 
 Detail see [ClusterProfiler Books](https://hiplot.com.cn/books-static/clusterprofiler-book).
@@ -52,7 +55,14 @@ NOTION: please don't use preprocessing feature when you did not get errors relat
 For the new parameters, they are not belong to GISTIC2 software and designed for preprocessing the input file to avoid problem related to overlap segments:
 
 - Clean Overlap Segments: enable the preprocessing.
-- Min Probe Number for Clean: if preprocessing is enabled, use this value to drop segments with probe number less than this value.## [Pathview](/advance/pathview)
+- Min Probe Number for Clean: if preprocessing is enabled, use this value to drop segments with probe number less than this value.## [Ideogram-Heat](/advance/ideogram-heat)
+
+Visualize values at chromosomal level.
+## [Oncoplot](/advance/oncoplot)
+
+- Introduction
+
+  Oncoplot can be used to display the landscape of genomic mutations in cancer cohort.## [Pathview](/advance/pathview)
 
 Calculate the mean expression and fill into the KEGG pathway.
 ## [Sigflow](/advance/sigflow)
