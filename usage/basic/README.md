@@ -49,6 +49,11 @@ The color group barplot can be used to display data values in groups, and to lab
 - Extra parameters:
 
    Display number | Used to control the maximum number of entries displayed in each group in the histogram. If set to 4, only the first 4 records of each group in Type will be taken
+## [Barplot Errorbar2](/basic/barplot-errorbar2)
+
+- ### Function Introduction
+
+    Bar plot with error-lines and groups.
 ## [Barplot Errorbar](/basic/barplot-errorbar)
 
 - ### Function Introduction
@@ -521,7 +526,7 @@ Bump chart can be used to display the change of grouped values.
 
   Reorder:Sort by the resulting correlation coefficient.
 
-## [Corelation Heatmap 2](/basic/cor-heatmap2)
+## [Corrplot](/basic/corrplot)
 
 - Introduction
 
@@ -586,7 +591,12 @@ Bump chart can be used to display the change of grouped values.
 
 - Introduction
 
-  The mirror density & histogram is a graph used to observe the distribution of continuous variables in two side view: top and bottom## [Density](/basic/density)
+  The mirror density & histogram is a graph used to observe the distribution of continuous variables in two side view: top and bottom## [Density-Histogram](/basic/density-histogram)
+
+- Introduction
+
+  Displaying the data distribution based on density or histogram.
+## [Density](/basic/density)
 
 - Introduction
 
@@ -1130,7 +1140,12 @@ Try plotting and if you have any problem with the parameters, check <https://rpk
 
 - Introduction
 
-  Descriptive statistical analysis of Likert scale data## [Line Regression（errorbar)](/basic/line-errorbar)
+  Descriptive statistical analysis of Likert scale data## [Line (Color Dot)](/basic/line-color-dot)
+
+- Introduction
+
+  Display the change of data points.
+## [Line（Errorbar)](/basic/line-errorbar)
 
 - Introduction
 
@@ -1526,6 +1541,11 @@ Detail introduction about [PCAtools](http://www.bioconductor.org/packages/releas
 
   In a circle graph, the arc length of each slice (the arc length of its center Angle and the region corresponding to its center Angle) is proportional to the number represented. The pie chart shows the number of samples for the 1 to 4 components and the corresponding proportions. The number of samples in one group is 13, accounting for 11.71%; the number of samples in two groups is 34, accounting for 30.63%; the number of samples in three groups is 21, accounting for 18.92%; and the number of samples in four groups is 43, accounting for 38.74%.
 
+## [Point (SD)](/basic/point-sd)
+
+- Introduction
+
+  Displaying the standard deviation (SD) of multi-group data.
 ## [Pyramid Chart2](/basic/pyramid-chart2)
 
 - Introduction
@@ -1557,6 +1577,11 @@ Detail introduction about [PCAtools](http://www.bioconductor.org/packages/releas
 
   sort:No means the central axis is arranged in the order of age;Desc means descending order by total population;Asc stands for ascending order by total population.
 
+## [QQplot](/basic/qqplot)
+
+- Introduction
+
+  Verify whether a set of data comes from a certain distribution or whether two sets of data come from the same (family) distribution.
 ## [Radar](/basic/radar)
 
 - Introduction
@@ -1665,6 +1690,11 @@ The case data is the distribution of up- and down-regulated genes in different o
 
   The color of female shunting is blue, the color of male shunting is red, and the width of blue shunting is equal to the total width of female.
 
+## [Gradient Scatter](/basic/scatter-gradient)
+
+- Introduction
+
+   Two-dimensional spatial scatter to demonstrate multi-numerical variable relationships.
 ## [3D Scatter](/basic/scatter-3d)
 
 - Introduction
@@ -1685,6 +1715,11 @@ The case data is the distribution of up- and down-regulated genes in different o
 
   Theta:The Angle at which a three-dimensional figure rotates horizontally
 
+## [Gradient Scatter](/basic/scatter-gradient)
+
+- Introduction
+
+   Two-dimensional spatial scatter to demonstrate multi-numerical variable relationships.
 ## [Scatter Pie](/basic/scatterpie)
 
 Scatter Pie can be used to visualize data fraction in different space coordinates.
@@ -1975,6 +2010,20 @@ Sopegraph can be used to display the change of values.
    Background Rectangles | background rectangle color
 
    Unselected Points | Unselected point color
+## [Venn2](/basic/venn2)
+
+- Introduction
+
+  A Venn diagram is a diagramthat shows all possible logical relations between a finite collection of different sets. These diagrams depict elements as points in the plane, and sets as regions inside closed curves. A Venn diagram consists of multiple overlapping closed curves, usually circles, each representing a set. The points inside a curve labelled S represent elements of the set S, while points outside the boundary represent elements not in the set S. This lends to easily read visualizations; for example, the set of all elements that are members of both sets Sand T, S ∩ T, is represented visually by the area of overlap of the regions S and T. In Venn diagrams the curves are overlapped in every possible way, showing all possible relations between the sets. 
+
+- Analysis of case data
+
+  The loaded data is a collection of five gene names.
+
+- Interpretation of case statistics graphics
+
+  The closed curve of 5 colors represents 5 sets, and the number represents the number of overlapping or non-overlapping genes in multiple sets. For example, 8 in the sample figure represents 8 identical gene names in 5 sample sets.
+
 ## [Venn](/basic/venn)
 
 - Introduction

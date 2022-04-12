@@ -718,7 +718,7 @@ Hiplot 的后台绘图脚本默认使用 R 完成。其代码主要分为数据�
     xlab(usr_xlab) +
     ggtitle(conf$general$title)
 
-  ## add ggsci color palette
+  ## add color palette
   p <- p + return_hiplot_palette_color(conf$general$palette,
   conf$general$paletteCustom) +
     return_hiplot_palette(conf$general$palette,

@@ -31,6 +31,11 @@
 - `KEGG DB` 参数可以输入 .rds 格式的文件或者物种名 (如 hsa 和 rno) (示例 2)。
 - 所有数据列都将独立进行富集分析
 - 如果绘图结果中存在灰色空白区，说明未显著富集到条目，可能需要调整 P 或 Q 阈值来纳入更多条目
+## [热图](/basic/heatmap)
+
+- 简介
+
+  共识聚类分析（Consensus clustering）基于 cola 框架。
 ## [DiscoverMutTest](/advance/discover-mut-test)
 
 用于分析癌症基因突变的共存互斥性。

@@ -31,6 +31,12 @@ Note:
 - Both the .rds format file or the species name (e.g. hsa and rno) can input in the `KEGG DB` parameter (Demo 2).
 - All data columns will be independently calculated for enrichment analysis.
 - The empty gray region represents that not found significant items. It is optional to adjust the P/Q value for including more items.
+## [Cola](/advance/cola)
+
+- Introduction
+
+  Consensus clustering based on cola framwork.
+
 ## [DiscoverMutTest](/advance/discover-mut-test)
 
 Can be used to analysing co-occurrence and mutual exclusivity in cancer genomics data.
