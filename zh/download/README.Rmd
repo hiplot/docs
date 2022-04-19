@@ -25,6 +25,7 @@ md5sum[,"Size"] <- sapply(file.info(md5sum[,2])$size, function(x) {
 md5sum[,"Date"] <- as.Date(file.info(md5sum[,2])$mtime, "%d%b%Y")
 md5sum[,"URL"] <- file.path(base_dir, basename(md5sum[,2]))
 md5sum[,"File"] <- basename(md5sum[,2])
+md5sum <- md5sum[md5sum$File != "md5sum",]
 colnames(md5sum)[1] <- "MD5"
 md5sum[,"File"] <- sprintf("[%s](%s)", md5sum[,"File"], md5sum[,"URL"])
 md5sum <- md5sum[,c("File", "Size", "Date", "MD5")]

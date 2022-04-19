@@ -11,14 +11,14 @@
 
 |File                                                                                                                         |Size     |Date       |MD5                              |
 |:----------------------------------------------------------------------------------------------------------------------------|:--------|:----------|:--------------------------------|
-|[Hiplot_Desktop_0.2.0_Darwin.dmg](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Darwin.dmg)             |85.5 Mb  |2022-04-19 |ebf9e9799edef4731edd7ffc7b902aa2 |
-|[Hiplot_Desktop_0.2.0_Linux_amd64.deb](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_amd64.deb)   |59.8 Mb  |2022-04-19 |16792f83669217e06a89a7e01d8373db |
+|[Hiplot_Desktop_0.2.0_Darwin.dmg](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Darwin.dmg)             |85.5 Mb  |2022-04-19 |7da62cb4619f27f0c13f323f8e9c0d93 |
+|[Hiplot_Desktop_0.2.0_Linux_amd64.deb](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_amd64.deb)   |59.8 Mb  |2022-04-19 |12d94c21bc5641f6a0b6e191c7d6cd25 |
 |[Hiplot_Desktop_0.2.0_Linux_amd64.snap](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_amd64.snap) |75.5 Mb  |2022-04-19 |97680b12035b2a14fa0194a79e418513 |
-|[Hiplot_Desktop_0.2.0_Linux_x64.apk](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_x64.apk)       |87.1 Mb  |2022-04-19 |03e7026d6415bfb030cc5e921dc9408a |
-|[Hiplot_Desktop_0.2.0_Linux_x86_64.rpm](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_x86_64.rpm) |59.9 Mb  |2022-04-19 |a7c1332a1aad34bf1cfda347841be326 |
-|[Hiplot_Desktop_0.2.0_Windows.exe](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows.exe)           |128.4 Mb |2022-04-19 |0b558a1e033faa6738ef0976888dc5fa |
-|[Hiplot_Desktop_0.2.0_Windows_ia32.exe](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows_ia32.exe) |62.6 Mb  |2022-04-19 |557eb8129cae9241298d35c77019254a |
-|[Hiplot_Desktop_0.2.0_Windows_x64.exe](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows_x64.exe)   |65.8 Mb  |2022-04-19 |50f0fff15b19a3b6e31a2d98621c2991 |
+|[Hiplot_Desktop_0.2.0_Linux_x64.apk](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_x64.apk)       |87.1 Mb  |2022-04-19 |54302528cccf97c29b05d239d8b25e33 |
+|[Hiplot_Desktop_0.2.0_Linux_x86_64.rpm](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_x86_64.rpm) |59.9 Mb  |2022-04-19 |764c3b6d079056f2a38edbd4b7cdcf6d |
+|[Hiplot_Desktop_0.2.0_Windows.exe](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows.exe)           |128.4 Mb |2022-04-19 |24a72ec9478710fa5c5498482d386bdd |
+|[Hiplot_Desktop_0.2.0_Windows_ia32.exe](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows_ia32.exe) |62.6 Mb  |2022-04-19 |7eb64f50edb2c3c15159b6e677743a54 |
+|[Hiplot_Desktop_0.2.0_Windows_x64.exe](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows_x64.exe)   |65.8 Mb  |2022-04-19 |f429b21c3e14bb8f15046ba26d1f6ec3 |
 
 旧版本 (v0.1.0):
 
@@ -108,7 +108,7 @@ tar -xzvf _demo.tar.gz
 ##   -o, --out-dir string    output dir. (default "/tmp")
 ##       --proxy string      HTTP proxy to query.
 ##       --save-log          Save log to file.
-##   -k, --taskname string   task ID (default is random). (default "b38b887e-20d8-4676-9434-507245447544")
+##   -k, --taskname string   task ID (default is random). (default "ad785b58-21c9-415e-a5a8-086f734d7354")
 ##       --timeout int       set the timeout of per request. (default 35)
 ##       --verbose int       verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ##   -v, --version           version for hctl
@@ -145,7 +145,7 @@ tar -xzvf _demo.tar.gz
 ##   -m, --module string         module name: basic, advance. (default "basic")
 ##   -p, --params string         json format tool params file (exported by Hiplot).
 ##       --print-links           print result links
-##       --temp-code string      task tempcode. (default "c9OqSzI")
+##       --temp-code string      task tempcode. (default "AYBGc3r")
 ##   -t, --tool string           tool name (e.g. heatmap).
 ## 
 ## Global Flags:
@@ -153,7 +153,7 @@ tar -xzvf _demo.tar.gz
 ##   -o, --out-dir string    output dir. (default "/tmp")
 ##       --proxy string      HTTP proxy to query.
 ##       --save-log          Save log to file.
-##   -k, --taskname string   task ID (default is random). (default "533e1baf-18bd-4767-bd0a-47a616b2c5ca")
+##   -k, --taskname string   task ID (default is random). (default "69aeb42f-604a-475f-9149-902f6484e5ed")
 ##       --timeout int       set the timeout of per request. (default 35)
 ##       --verbose int       verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ```
