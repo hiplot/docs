@@ -42,6 +42,9 @@
 ## [Fusion-Circlize](/advance/fusion-circlize)
 
 使用染色体圈图可视化融合基因。
+## [GGMSA](/advance/ggmsa)
+
+可以基于 ggplot2 语法可视化多重序列比对结果。
 ## [GGtree-MSA](/advance/ggtree-msa)
 
 可以用于可视化进化树和多重序列比对结果。

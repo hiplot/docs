@@ -1,5 +1,6 @@
 module.exports = {
     base: '/docs/',
+    host: '0.0.0.0',
     head: [
         // 添加百度统计
         [

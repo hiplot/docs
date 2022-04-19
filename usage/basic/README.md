@@ -836,6 +836,16 @@ Detail: https://github.com/chrisamiller/fishplot
 
 
 
+## [Funnel Plot (Metafor)](/basic/funnel-plot-metafor)
+
+- Introduction
+
+   Can be used to show potential bias factors in Meta-analysis.
+## [Funnel Plot](/basic/funnel-plot)
+
+- Introduction
+
+   Can be used to show potential bias factors in Meta-analysis.
 ## [Gantt](/basic/gantt)
 
 - Introduction 
@@ -1690,7 +1700,7 @@ The case data is the distribution of up- and down-regulated genes in different o
 
   The color of female shunting is blue, the color of male shunting is red, and the width of blue shunting is equal to the total width of female.
 
-## [Gradient Scatter](/basic/scatter-gradient)
+## [Scatter2](/basic/scatter2)
 
 - Introduction
 
@@ -1820,6 +1830,11 @@ Sopegraph can be used to display the change of values.
 
   The horizontal axis represents time and the vertical axis represents the probability of survival. The blue curve represents the survivolship curve of G1 group and the red curve represents the survivolship curve of G2 group. After logrank test, p value =0.0013<0.05 indicates that difference in survival status between the two groups could not be explained by sampling error, and the grouping factor is the reason for the difference in survival rate between the two curves. This graph shows that overall survival is better in G2 than in G1.
 
+## [Taylor Diagram](/basic/taylor-diagram)
+
+- Introduction
+
+   It can be used to display the standard deviation (SD), root mean square (RMS) error and correlation coefficient of the models simultaneously.
 ## [time-roc](/basic/time-roc)
 
 - ### Function Introduction

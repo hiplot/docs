@@ -8,7 +8,30 @@ knitr::opts_chunk$set(echo = TRUE)
 
 We build the desktop client of Hiplot based on the [Electron](https://www.electronjs.org/). The demo data and UI components are fixed in the desktop client under the given version.
 
-Latest release version (v0.1.0):
+Latest release version:
+
+```{r echo = FALSE}
+library(data.table)
+library(stringr)
+download_dir <- getOption("hiplot.download_dir")
+latest <- readLines(file.path(download_dir, "desktop", "latest/version"))
+md5sum <- fread(cmd = sprintf("cat %s/desktop/%s/md5sum | sed 's;  ;\t;'",
+  download_dir, latest),
+  sep = "\t", data.table = FALSE, header = FALSE)
+base_dir <- sprintf("https://hiplot.com.cn/download/desktop/%s", latest)
+md5sum[,"Date"] <- as.Date(file.info(md5sum[,2])$mtime, "%d%b%Y")
+md5sum[,"Size"] <- sapply(file.info(md5sum[,2])$size, function(x) {
+  utils:::format.object_size(x, "auto")
+})
+md5sum[,"URL"] <- file.path(base_dir, basename(md5sum[,2]))
+md5sum[,"File"] <- basename(md5sum[,2])
+colnames(md5sum)[1] <- "MD5"
+md5sum[,"File"] <- sprintf("[%s](%s)", md5sum[,"File"], md5sum[,"URL"])
+md5sum <- md5sum[,c("File", "Size", "Date", "MD5")]
+knitr::kable(md5sum)
+```
+
+Old release version (v0.1.0):
 
 **Linux:**
 

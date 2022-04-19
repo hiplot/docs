@@ -6,7 +6,21 @@
 
 We build the desktop client of Hiplot based on the [Electron](https://www.electronjs.org/). The demo data and UI components are fixed in the desktop client under the given version.
 
-Latest release version (v0.1.0):
+Latest release version:
+
+
+|File                                                                                                                         |Size     |Date       |MD5                              |
+|:----------------------------------------------------------------------------------------------------------------------------|:--------|:----------|:--------------------------------|
+|[Hiplot_Desktop_0.2.0_Darwin.dmg](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Darwin.dmg)             |85.5 Mb  |2022-04-19 |ebf9e9799edef4731edd7ffc7b902aa2 |
+|[Hiplot_Desktop_0.2.0_Linux_amd64.deb](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_amd64.deb)   |59.8 Mb  |2022-04-19 |16792f83669217e06a89a7e01d8373db |
+|[Hiplot_Desktop_0.2.0_Linux_amd64.snap](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_amd64.snap) |75.5 Mb  |2022-04-19 |97680b12035b2a14fa0194a79e418513 |
+|[Hiplot_Desktop_0.2.0_Linux_x64.apk](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_x64.apk)       |87.1 Mb  |2022-04-19 |03e7026d6415bfb030cc5e921dc9408a |
+|[Hiplot_Desktop_0.2.0_Linux_x86_64.rpm](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_x86_64.rpm) |59.9 Mb  |2022-04-19 |a7c1332a1aad34bf1cfda347841be326 |
+|[Hiplot_Desktop_0.2.0_Windows.exe](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows.exe)           |128.4 Mb |2022-04-19 |0b558a1e033faa6738ef0976888dc5fa |
+|[Hiplot_Desktop_0.2.0_Windows_ia32.exe](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows_ia32.exe) |62.6 Mb  |2022-04-19 |557eb8129cae9241298d35c77019254a |
+|[Hiplot_Desktop_0.2.0_Windows_x64.exe](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows_x64.exe)   |65.8 Mb  |2022-04-19 |50f0fff15b19a3b6e31a2d98621c2991 |
+
+Old release version (v0.1.0):
 
 **Linux:**
 
@@ -92,7 +106,7 @@ tar -xzvf _demo.tar.gz
 ##   -o, --out-dir string    output dir. (default "/tmp")
 ##       --proxy string      HTTP proxy to query.
 ##       --save-log          Save log to file.
-##   -k, --taskname string   task ID (default is random). (default "60e03d5d-5607-425b-8144-d05202e868c4")
+##   -k, --taskname string   task ID (default is random). (default "8a73346d-8ce6-42cf-bbfe-f3c3c7fed396")
 ##       --timeout int       set the timeout of per request. (default 35)
 ##       --verbose int       verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ##   -v, --version           version for hctl
@@ -129,7 +143,7 @@ tar -xzvf _demo.tar.gz
 ##   -m, --module string         module name: basic, advance. (default "basic")
 ##   -p, --params string         json format tool params file (exported by Hiplot).
 ##       --print-links           print result links
-##       --temp-code string      task tempcode. (default "e039mms")
+##       --temp-code string      task tempcode. (default "hcuptdG")
 ##   -t, --tool string           tool name (e.g. heatmap).
 ## 
 ## Global Flags:
@@ -137,7 +151,7 @@ tar -xzvf _demo.tar.gz
 ##   -o, --out-dir string    output dir. (default "/tmp")
 ##       --proxy string      HTTP proxy to query.
 ##       --save-log          Save log to file.
-##   -k, --taskname string   task ID (default is random). (default "4ca2b770-db11-48f7-968e-2eec419da2fc")
+##   -k, --taskname string   task ID (default is random). (default "2bd69016-8b42-46b5-8f1e-9772622dcc94")
 ##       --timeout int       set the timeout of per request. (default 35)
 ##       --verbose int       verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ```

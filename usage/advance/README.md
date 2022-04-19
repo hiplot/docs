@@ -53,6 +53,9 @@ Can be used to analysing co-occurrence and mutual exclusivity in cancer genomics
 Visualize fusion genes at chromosomal level.
 ## [GGtree-MSA](/advance/ggtree-msa)
 
+Can be used to visualize multiple sequence alignment based on ggplot2.
+## [GGtree-MSA](/advance/ggtree-msa)
+
 Can be used to tree with multiple sequence alignment.
 ## [GISTIC2](/advance/gistic2)
 

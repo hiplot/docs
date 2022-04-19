@@ -6,7 +6,21 @@
 
 我们基于 [Electron](https://www.electronjs.org/) 构建了 Hiplot 的桌面客户端。示例数据和 UI 组件将在特定版本下被固定。
 
-Latest release version (v0.1.0):
+最新版本:
+
+
+|File                                                                                                                         |Size     |Date       |MD5                              |
+|:----------------------------------------------------------------------------------------------------------------------------|:--------|:----------|:--------------------------------|
+|[Hiplot_Desktop_0.2.0_Darwin.dmg](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Darwin.dmg)             |85.5 Mb  |2022-04-19 |ebf9e9799edef4731edd7ffc7b902aa2 |
+|[Hiplot_Desktop_0.2.0_Linux_amd64.deb](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_amd64.deb)   |59.8 Mb  |2022-04-19 |16792f83669217e06a89a7e01d8373db |
+|[Hiplot_Desktop_0.2.0_Linux_amd64.snap](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_amd64.snap) |75.5 Mb  |2022-04-19 |97680b12035b2a14fa0194a79e418513 |
+|[Hiplot_Desktop_0.2.0_Linux_x64.apk](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_x64.apk)       |87.1 Mb  |2022-04-19 |03e7026d6415bfb030cc5e921dc9408a |
+|[Hiplot_Desktop_0.2.0_Linux_x86_64.rpm](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_x86_64.rpm) |59.9 Mb  |2022-04-19 |a7c1332a1aad34bf1cfda347841be326 |
+|[Hiplot_Desktop_0.2.0_Windows.exe](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows.exe)           |128.4 Mb |2022-04-19 |0b558a1e033faa6738ef0976888dc5fa |
+|[Hiplot_Desktop_0.2.0_Windows_ia32.exe](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows_ia32.exe) |62.6 Mb  |2022-04-19 |557eb8129cae9241298d35c77019254a |
+|[Hiplot_Desktop_0.2.0_Windows_x64.exe](https://hiplot.com.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows_x64.exe)   |65.8 Mb  |2022-04-19 |50f0fff15b19a3b6e31a2d98621c2991 |
+
+旧版本 (v0.1.0):
 
 **Linux:**
 
@@ -94,7 +108,7 @@ tar -xzvf _demo.tar.gz
 ##   -o, --out-dir string    output dir. (default "/tmp")
 ##       --proxy string      HTTP proxy to query.
 ##       --save-log          Save log to file.
-##   -k, --taskname string   task ID (default is random). (default "cb0793e0-429d-41ce-87f3-b62ced31124b")
+##   -k, --taskname string   task ID (default is random). (default "b38b887e-20d8-4676-9434-507245447544")
 ##       --timeout int       set the timeout of per request. (default 35)
 ##       --verbose int       verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ##   -v, --version           version for hctl
@@ -131,7 +145,7 @@ tar -xzvf _demo.tar.gz
 ##   -m, --module string         module name: basic, advance. (default "basic")
 ##   -p, --params string         json format tool params file (exported by Hiplot).
 ##       --print-links           print result links
-##       --temp-code string      task tempcode. (default "9FMWihW")
+##       --temp-code string      task tempcode. (default "c9OqSzI")
 ##   -t, --tool string           tool name (e.g. heatmap).
 ## 
 ## Global Flags:
@@ -139,7 +153,7 @@ tar -xzvf _demo.tar.gz
 ##   -o, --out-dir string    output dir. (default "/tmp")
 ##       --proxy string      HTTP proxy to query.
 ##       --save-log          Save log to file.
-##   -k, --taskname string   task ID (default is random). (default "ddc968cd-dc68-4ffb-a8b3-2f35a6e29141")
+##   -k, --taskname string   task ID (default is random). (default "533e1baf-18bd-4767-bd0a-47a616b2c5ca")
 ##       --timeout int       set the timeout of per request. (default 35)
 ##       --verbose int       verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ```
