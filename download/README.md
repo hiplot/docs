@@ -30,14 +30,14 @@ Latest release version (v0.1.4):
 
 |File                                                                                                            |Size   |Date       |MD5                              |
 |:---------------------------------------------------------------------------------------------------------------|:------|:----------|:--------------------------------|
-|[hctl_0.1.4_Darwin_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.4/hctl_0.1.4_Darwin_64-bit.tar.gz)   |2.9 Mb |2022-04-22 |1aceaabe98cf17a73ab309c156dab972 |
-|[hctl_0.1.4_Darwin_arm64.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.4/hctl_0.1.4_Darwin_arm64.tar.gz)     |2.8 Mb |2022-04-22 |9c9fed4c9fb5a1e8480860e2de112184 |
-|[hctl_0.1.4_Linux_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.4/hctl_0.1.4_Linux_32-bit.tar.gz)     |2.7 Mb |2022-04-22 |0b91c5cbbc32e15cf48f1242bd4c9d80 |
-|[hctl_0.1.4_Linux_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.4/hctl_0.1.4_Linux_64-bit.tar.gz)     |2.8 Mb |2022-04-22 |e478130e976d1bccfa5bc129768f827f |
-|[hctl_0.1.4_Linux_arm64.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.4/hctl_0.1.4_Linux_arm64.tar.gz)       |2.6 Mb |2022-04-22 |81f9f1fc5b68ee0f792a7abf8a94a226 |
-|[hctl_0.1.4_Windows_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.4/hctl_0.1.4_Windows_32-bit.tar.gz) |2.8 Mb |2022-04-22 |34be762d3f8bea8cd8356c9493382a99 |
-|[hctl_0.1.4_Windows_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.4/hctl_0.1.4_Windows_64-bit.tar.gz) |2.9 Mb |2022-04-22 |dd6cfc5e90918d4169ddae6b1c19a021 |
-|[hctl_0.1.4_Windows_arm64.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.4/hctl_0.1.4_Windows_arm64.tar.gz)   |2.6 Mb |2022-04-22 |039a096e717dc2a5a3b3eaf9b1cc8363 |
+|[hctl_0.1.4_Darwin_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.4/hctl_0.1.4_Darwin_64-bit.tar.gz)   |2.9 Mb |2022-04-23 |c63fbc9a7552084f7e1027a8df9b2f4e |
+|[hctl_0.1.4_Darwin_arm64.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.4/hctl_0.1.4_Darwin_arm64.tar.gz)     |2.8 Mb |2022-04-23 |8c4ae51addc0604018665ed1c23e6f36 |
+|[hctl_0.1.4_Linux_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.4/hctl_0.1.4_Linux_32-bit.tar.gz)     |2.7 Mb |2022-04-23 |d034dbd6c3dfc9702398adfef5a82c08 |
+|[hctl_0.1.4_Linux_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.4/hctl_0.1.4_Linux_64-bit.tar.gz)     |2.8 Mb |2022-04-23 |26cddce49c026ff9754ed50a57ca18a3 |
+|[hctl_0.1.4_Linux_arm64.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.4/hctl_0.1.4_Linux_arm64.tar.gz)       |2.6 Mb |2022-04-23 |c043936c9078fc326d36c18e30c09317 |
+|[hctl_0.1.4_Windows_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.4/hctl_0.1.4_Windows_32-bit.tar.gz) |2.8 Mb |2022-04-23 |c2cd4e8c23a3c928bcfea6947cf058c3 |
+|[hctl_0.1.4_Windows_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.4/hctl_0.1.4_Windows_64-bit.tar.gz) |2.9 Mb |2022-04-23 |4b9099f0277daa1207c35e8658c718a6 |
+|[hctl_0.1.4_Windows_arm64.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.4/hctl_0.1.4_Windows_arm64.tar.gz)   |2.6 Mb |2022-04-23 |6c9f86339b9b4347704624a19ecb2d6f |
 
 Other releases of hctl: [here](https://hiplot.com.cn/download/hctl)
 
@@ -100,7 +100,7 @@ hctl plot -p basic-tsne-params.json -o /tmp/hiplot-tsne
 ##   -o, --out-dir string    output dir. (default "/tmp")
 ##       --proxy string      HTTP proxy to query.
 ##       --save-log          Save log to file.
-##   -k, --taskname string   task ID (default is random). (default "36f5e55a-d6b2-4ad2-b3a4-9e69b88816c5")
+##   -k, --taskname string   task ID (default is random). (default "36fbe83a-7255-4088-8feb-9ebebe658b2b")
 ##       --timeout int       set the timeout of per request. (default 35)
 ##       --verbose int       verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ##   -v, --version           version for hctl
@@ -128,7 +128,7 @@ hctl plot -p basic-tsne-params.json -o /tmp/hiplot-tsne
 ##   hctl config basic/pca
 ##   hctl plot -p basic-pca-params.json --load-example true -o /tmp/pca1
 ##   hctl plot -p basic-pca-params.json --load-example 2 -o /tmp/pca2
-##   hctl plot -p _demo/heatmap/params.json -o /tmp/hiplot-tsne
+##   hctl plot -p _demo/tsne/basic-tsne-params.json -o /tmp/hiplot-tsne
 ## 
 ## Flags:
 ##       --check-task            check task status, taskname and tmpcode are required.
@@ -139,7 +139,7 @@ hctl plot -p basic-tsne-params.json -o /tmp/hiplot-tsne
 ##   -m, --module string         module name: basic, advance. (default "basic")
 ##   -p, --params string         json format tool params file (exported by Hiplot).
 ##       --print-links           print result links
-##       --temp-code string      task tempcode. (default "OWbZr3X")
+##       --temp-code string      task tempcode. (default "9odzRxI")
 ##   -t, --tool string           tool name (e.g. heatmap).
 ## 
 ## Global Flags:
@@ -147,7 +147,7 @@ hctl plot -p basic-tsne-params.json -o /tmp/hiplot-tsne
 ##   -o, --out-dir string    output dir. (default "/tmp")
 ##       --proxy string      HTTP proxy to query.
 ##       --save-log          Save log to file.
-##   -k, --taskname string   task ID (default is random). (default "19c4f810-db79-4366-a281-435089f86fad")
+##   -k, --taskname string   task ID (default is random). (default "6eec067f-428e-4ca0-b5b9-d0e59f1d2759")
 ##       --timeout int       set the timeout of per request. (default 35)
 ##       --verbose int       verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ```

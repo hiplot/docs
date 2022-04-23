@@ -1,5 +1,10 @@
 # Mini Tools
 
+## [Easy Booktab](/mini-tools/easy-booktab)
+
+- Introduction
+
+  It can be used to create publication-ready analytical and summary tables based on gtsummary R package.
 ## [Extract Colors](/mini-tools/extract-colors)
 
 - Introduction
