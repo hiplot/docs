@@ -11,63 +11,23 @@ knitr::opts_chunk$set(echo = TRUE)
 最新版本:
 
 ```{r echo = FALSE}
-library(data.table)
-library(stringr)
-download_dir <- getOption("hiplot.download_dir")
-latest <- readLines(file.path(download_dir, "desktop", "latest/version"))
-md5sum <- fread(cmd = sprintf("cat %s/desktop/%s/md5sum | sed 's;  ;\t;'",
-  download_dir, latest),
-  sep = "\t", data.table = FALSE, header = FALSE)
-base_dir <- sprintf("https://hiplot.com.cn/download/desktop/%s", latest)
-md5sum[,"Size"] <- sapply(file.info(md5sum[,2])$size, function(x) {
-  utils:::format.object_size(x, "auto")
-})
-md5sum[,"Date"] <- as.Date(file.info(md5sum[,2])$mtime, "%d%b%Y")
-md5sum[,"URL"] <- file.path(base_dir, basename(md5sum[,2]))
-md5sum[,"File"] <- basename(md5sum[,2])
-md5sum <- md5sum[md5sum$File != "md5sum",]
-colnames(md5sum)[1] <- "MD5"
-md5sum[,"File"] <- sprintf("[%s](%s)", md5sum[,"File"], md5sum[,"URL"])
-md5sum <- md5sum[,c("File", "Size", "Date", "MD5")]
-knitr::kable(md5sum)
+source("../../scripts/download_table.R")
+download_table("desktop", "versionDesktop")
 ```
 
-旧版本 (v0.1.0):
+其他桌面版本: [这里](https://hiplot.com.cn/download/desktop/)
 
-**Linux:**
-
-- [Hiplot_Desktop_0.1.0_Linux_x86_64.AppImage](https://hiplot.com.cn/download/desktop/v0.1.0/Hiplot_Desktop_0.1.0_Linux_x86_64.AppImage)
-- [Hiplot_Desktop_0.1.0_Linux_amd64.snap](https://hiplot.com.cn/download/desktop/v0.1.0/Hiplot_Desktop_0.1.0_Linux_amd64.snap)
-
-**Windows:**
-
-- [Hiplot_Desktop_0.1.0_Windows.exe](https://hiplot.com.cn/download/desktop/v0.1.0/Hiplot_Desktop_0.1.0_Windows.exe)
-
-**MAC OSX**
-
-- [Hiplot_Desktop_0.1.0_Darwin.dmg](https://hiplot.com.cn/download/desktop/v0.1.0/Hiplot_Desktop_0.1.0_Darwin.dmg)
-
-```
 ## hctl
 
 hctl 是 Hiplot 网站的命令行程序. 它可以让用户在命令行环境下使用 Hiplot 网站的绘图系统。
 
-最新发布版本 (v0.1.3):
+最新发布版本 (v0.1.4):
 
-**Linux:**
+```{r echo = FALSE}
+download_table("hctl", "versionTerminal")
+```
 
-- [hctl_0.1.3_Linux_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.3/hctl_0.1.3_Linux_64-bit.tar.gz)
-- [hctl_0.1.3_Linux_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.3/hctl_0.1.3_Linux_32-bit.tar.gz)
-
-**MAC OSX:**
-
-- [hctl_0.1.3_Darwin_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.3/hctl_0.1.3_Darwin_64-bit.tar.gz)
-
-
-**Windows:**
-
-- [hctl_0.1.3_Windows_64-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.3/hctl_0.1.3_Windows_64-bit.tar.gz)
-- [hctl_0.1.3_Windows_32-bit.tar.gz](https://hiplot.com.cn/download/hctl/v0.1.3/hctl_0.1.3_Windows_32-bit.tar.gz)
+其他 hctl 版本: [这里](https://hiplot.com.cn/download/hctl)
 
 使用 hctl 进行绘图之前，用户需要使用 `hctl login` 命令获得 Hiplot 的服务授权。 登录成功后，即可使用 `hctl plot` 命令进行绘图：输入数据为一个 JSON 格式的参数文件和/或一个/多个数据表。
 
@@ -96,6 +56,14 @@ tar -xzvf _demo.tar.gz
 
 # 使用 Hiplot 网站导出的参数文件
 ./hctl plot -p _demo/heatmap/params.json -t heatmap -o /tmp/hiplot-params-mode
+
+# hiplot config 和 plot 命令联合
+## 展示 hctl 支持的网页插件
+hctl config -l
+## 下载 basic/tsne 插件配置文件
+hctl config basic/tsne
+## 绘制 tsne 图形
+hctl plot -p basic-tsne-params.json -o /tmp/hiplot-tsne
 ```
 
 ### 命令行主程序
