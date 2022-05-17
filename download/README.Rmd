@@ -15,32 +15,32 @@ source("../scripts/download_table.R")
 download_table("desktop", "versionDesktop")
 ```
 
-Other releases of desktop client: [here](https://hiplot.com.cn/download/desktop)
+Other releases of desktop client: [here](https://hiplot-academic.com/download/desktop)
 
 ## hctl
 
 hctl is the command-line client of Hiplot website. It can be used to draw plots without the web environment.
 
-Latest release version (v0.1.4):
+Latest release version (v0.1.5):
 
 ```{r echo = FALSE}
 download_table("hctl", "versionTerminal")
 ```
 
-Other releases of hctl: [here](https://hiplot.com.cn/download/hctl)
+Other releases of hctl: [here](https://hiplot-academic.com/download/hctl)
 
 It is required to login Hiplot server first using the `hctl login` command. `hctl plot` command can be used to draw plots by using the parameter file and data files.
 
-Demo input files of hctl can be download from here: [demo.tar.gz](https://hiplot.com.cn/download/hctl/_demo.tar.gz).
+Demo input files of hctl can be download from here: [demo.tar.gz](https://hiplot-academic.com/download/hctl/_demo.tar.gz).
 
 ```bash
 ## Linux 64 Demo
 mkdir /tmp/hiplot
 cd /tmp/hiplot
-wget https://hiplot.com.cn/download/hctl/v0.1.4/hctl_0.1.4_Linux_64-bit.tar.gz
-wget https://hiplot.com.cn/download/hctl/_demo.tar.gz
+wget https://hiplot-academic.com/download/hctl/v0.1.5/hctl_0.1.5_Linux_64-bit.tar.gz
+wget https://hiplot-academic.com/download/hctl/_demo.tar.gz
 
-tar -xzvf hctl_0.1.4_Linux_64-bit.tar.gz
+tar -xzvf hctl_0.1.5_Linux_64-bit.tar.gz
 tar -xzvf _demo.tar.gz
 
 hctl login

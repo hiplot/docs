@@ -46,7 +46,7 @@ module.exports = {
                     }
                 },
                 nav: [
-                    { text: 'Home', link: 'https://hiplot.com.cn' },
+                    { text: 'Home', link: 'https://hiplot-academic.com' },
                     { text: 'Docs', link: '/' },
                     { text: 'Community', link: 'https://discord.com/channels/708004190286381068' },
                 ],
@@ -58,7 +58,6 @@ module.exports = {
                         children: [
                             '/',
                             '/modules',
-                            '/hisub',
                             '/env',
                             '/download/',
                             '/qa',
@@ -74,6 +73,14 @@ module.exports = {
                             '/usage/advance/',
                             '/usage/mini-tools/',
                             '/usage/clinical-tools/'
+                        ]
+                    },
+                    {
+                        "title": 'Development Guidance',
+                        collapsable: true,
+                        children: [
+                            '/development-guides/',
+                            '/development-guides/hisub'
                         ]
                     }
                 ],
@@ -92,7 +99,7 @@ module.exports = {
                     }
                 },
                 nav: [
-                    { text: '主页', link: 'https://hiplot.com.cn' },
+                    { text: '主页', link: 'https://hiplot-academic.com' },
                     { text: '文档', link: '/zh/' },
                     { text: '用户社区', link: 'https://discord.com/channels/708004190286381068' },
                 ],

@@ -24,7 +24,7 @@ Can be used to visualize the structural pattern of fusion genes at the one-dimen
 Visualize values at chromosomal level.
 ## [ClusterProfiler GO/KEGG](/advance/clusterprofiler-go-kegg)
 
-Detail see [ClusterProfiler Books](https://hiplot.com.cn/books-static/clusterprofiler-book).
+Detail see [ClusterProfiler Books](https://hiplot-academic.com/books-static/clusterprofiler-book).
 
 Note: 
 

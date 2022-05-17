@@ -15,7 +15,7 @@ In recent years, with the development of various cloud computing platforms (such
 
 ![Galaxy Platform](https://s1.ax1x.com/2020/07/08/UEk8mV.png)
 
-Hiplot (https://hiplot.com.cn) is a free and comprehensive cloud platform for scientific computation and visualization based on web technology, which is supported by open source communities. It provides more simple web and command-line interfaces compared with other similar platforms.
+Hiplot (https://hiplot.org) is a free and comprehensive web service for biomedical visualization based on web technology, which is supported by open source communities. It provides more simple web and command-line interfaces compared with other similar platforms.
 
 Editable table view and switched file uploader simplify the data loading process for most tasks. Data, parameters, and task history can be imported and exported via the JSON files for enhancing reproducibility. A single R language script or function can be used to generate the web front-end interface, command-line interface, and the meta description of a Hiplot plugin. Up to now, hundreds of free applications have been working on Hiplot, including basic statistics, predictive models, multi-omics data analysis, and text-mining.
 

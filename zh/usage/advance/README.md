@@ -24,7 +24,7 @@
 染色体坐标可视化数值分布。
 ## [ClusterProfiler GO/KEGG](/advance/clusterprofiler-go-kegg)
 
-详细参数见 [ClusterProfiler Books](https://hiplot.com.cn/books-static/clusterprofiler-book).
+详细参数见 [ClusterProfiler Books](https://hiplot-academic.com/books-static/clusterprofiler-book).
 
 注意: 
 

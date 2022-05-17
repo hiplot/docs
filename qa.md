@@ -17,11 +17,11 @@
 
 **3. How to login Hiplot Tiny RSS server?**
 
-Visit https://hiplot.com.cn/ttrss, and then use the Hiplot account and the default password 'public'.
+Visit https://hiplot-academic.com/ttrss, and then use the Hiplot account and the default password 'public'.
 
 **4. How to login Hiplot Galaxy mirror website?**
 
-Visit https://galaxy.hiplot.com.cn, and then use the Hiplot account and the default password 'public'.
+Visit https://galaxy.hiplot-academic.com, and then use the Hiplot account and the default password 'public'.
 
 ## Data importing
 

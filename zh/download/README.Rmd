@@ -15,32 +15,32 @@ source("../../scripts/download_table.R")
 download_table("desktop", "versionDesktop")
 ```
 
-其他桌面版本: [这里](https://hiplot.com.cn/download/desktop/)
+其他桌面版本: [这里](https://hiplot-academic.com/download/desktop/)
 
 ## hctl
 
 hctl 是 Hiplot 网站的命令行程序. 它可以让用户在命令行环境下使用 Hiplot 网站的绘图系统。
 
-最新发布版本 (v0.1.4):
+最新发布版本 (v0.1.5):
 
 ```{r echo = FALSE}
 download_table("hctl", "versionTerminal")
 ```
 
-其他 hctl 版本: [这里](https://hiplot.com.cn/download/hctl)
+其他 hctl 版本: [这里](https://hiplot-academic.com/download/hctl)
 
 使用 hctl 进行绘图之前，用户需要使用 `hctl login` 命令获得 Hiplot 的服务授权。 登录成功后，即可使用 `hctl plot` 命令进行绘图：输入数据为一个 JSON 格式的参数文件和/或一个/多个数据表。
 
-示例输入 [demo.tar.gz](https://hiplot.com.cn/download/hctl/_demo.tar.gz)。
+示例输入 [demo.tar.gz](https://hiplot-academic.com/download/hctl/_demo.tar.gz)。
 
 ```bash
 ## Linux 64 Demo
 mkdir /tmp/hiplot
 cd /tmp/hiplot
-wget https://hiplot.com.cn/download/hctl/v0.1.3/hctl_0.1.3_Linux_64-bit.tar.gz
-wget https://hiplot.com.cn/download/hctl/_demo.tar.gz
+wget https://hiplot-academic.com/download/hctl/v0.1.5/hctl_0.1.5_Linux_64-bit.tar.gz
+wget https://hiplot-academic.com/download/hctl/_demo.tar.gz
 
-tar -xzvf hctl_0.1.3_Linux_64-bit.tar.gz
+tar -xzvf hctl_0.1.5_Linux_64-bit.tar.gz
 tar -xzvf _demo.tar.gz
 
 ./hctl login

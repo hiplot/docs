@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/hiplot/gold/issues"
   },
-  "homepage": "https://hiplot.com.cn/docs",
+  "homepage": "https://hiplot-academic.com/docs",
   "devDependencies": {
     "@hapi/hoek": "^9.2.1",
     "@vuepress/plugin-back-to-top": "^1.9.7",

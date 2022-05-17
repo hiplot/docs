@@ -249,6 +249,20 @@ The color group barplot can be used to display data values in groups, and to lab
 
   Different colors represent different groups, and dots represent data.
 
+## [Corrplot Big Data](/basic/big-corrplot)
+
+- Introduction
+
+  The correlation heat map is a graph that analyzes the correlation between two or more variables.
+
+- Analysis of case data
+
+  The loaded data are  the gene names and the expression of each sample.
+
+- Interpretation of case statistics graphics
+
+   Red indicates positive correlation between two genes, blue indicates negative correlation between two genes, and the number in each cell indicates correlation coefficient.
+
 ## [Bivariate](/basic/bivariate)
 
 - Introduction
@@ -440,7 +454,7 @@ Bump chart can be used to display the change of grouped values.
     Scale: is the chord graph displayed according to the proportion of free scaling of elements
     
 
-## [Circular Barplot](https://hiplot.com.cn/basic/circular-barplot)
+## [Circular Barplot](https://hiplot-academic.com/basic/circular-barplot)
 
 - Introduction
 
@@ -860,7 +874,7 @@ Detail: https://github.com/chrisamiller/fishplot
 
   The horizontal axis represents the time schedule, the vertical axis represents 4 patients, and the 3 colors represent 3 treatments. The figure can observe the time schedule of different treatments for each patient.
 
-## [Gene Density](https://hiplot.com.cn/basic/gene-density)
+## [Gene Density](https://hiplot-academic.com/basic/gene-density)
 
 - Introduction
 
@@ -886,7 +900,7 @@ Detail: https://github.com/chrisamiller/fishplot
 
   gtrellis: (Zuguang Gu <z.gu@dkfz.de>)
 
-## [Gene Ranking Dotplot](https://hiplot.com.cn/basic/gene-rank)
+## [Gene Ranking Dotplot](https://hiplot-academic.com/basic/gene-rank)
 
 - Introduction
 
@@ -910,7 +924,7 @@ Detail: https://github.com/chrisamiller/fishplot
 
 
 
-## [Gene Cluster Trend](https://hiplot.com.cn/basic/gene-trend)
+## [Gene Cluster Trend](https://hiplot-academic.com/basic/gene-trend)
 
 - Introduction
 
@@ -1001,7 +1015,7 @@ Try plotting and if you have any problem with the parameters, check <https://rpk
    Font size range: limit the font size of entries
 
    Word spacing: font spacing of entries 
-## [GOBar Plot](https://hiplot.com.cn/basic/gobar)
+## [GOBar Plot](https://hiplot-academic.com/basic/gobar)
 
 - Introduction
 
@@ -1023,7 +1037,7 @@ Try plotting and if you have any problem with the parameters, check <https://rpk
 
   GOplot: (Maintainer: Wencke Walter <wencke.walter@arcor.de>)
 
-## [GOBubble Plot](https://hiplot.com.cn/basic/gobubble)
+## [GOBubble Plot](https://hiplot-academic.com/basic/gobubble)
 
 - Introduction
 
@@ -1050,7 +1064,7 @@ Try plotting and if you have any problem with the parameters, check <https://rpk
 - Reference Packages
 
   GOplot: (Maintainer: Wencke Walter <wencke.walter@arcor.de>)
-## [GOCircle Plot](https://hiplot.com.cn/basic/gocircle)
+## [GOCircle Plot](https://hiplot-academic.com/basic/gocircle)
 
 - Introduction
 
@@ -1080,6 +1094,24 @@ Try plotting and if you have any problem with the parameters, check <https://rpk
 
   GOplot: (Maintainer: Wencke Walter <wencke.walter@arcor.de>)
 
+## [Group-comparison Heatmap](/basic/group-comparison)
+
+This plugin provides a way to compare multiple variables across multiple (>2) groups and visualize the result with heatmap.
+
+When the reference group is not set, let's say you have A,B,C 3 groups, then this plugin will
+
+- Compare A and B+C
+- Compare B and A+C
+- Compare C and A+B
+
+If reference groups set to A, then
+
+- Compare A and B
+- Compare A and C
+
+If you have discrete variable, only binary is valid, you can use `TRUE`/`P` for positive
+case and `FALSE`/`N` for negative case.
+
 ## [Half Violin](/basic/half-violin)
 
 - Introduction
@@ -1108,7 +1140,7 @@ Try plotting and if you have any problem with the parameters, check <https://rpk
 
   In the example figure, each small grid represents each gene, and the shade of color represents the expression level of this gene. The larger the expression level is, the darker the color will be (red is up-regulated, green is down-regulated).Each row represents the expression of each gene in a different sample, and each column represents the expression of all genes in each sample.The upper tree represents the clustering analysis results of different samples of different groups and ages, and the left tree represents the clustering analysis results of different genes from different samples.
 
-## [HiC Heatmap](https://hiplot.com.cn/basic/hic-heatmap)
+## [HiC Heatmap](https://hiplot-academic.com/basic/hic-heatmap)
 
 - Introduction
 
@@ -2150,7 +2182,7 @@ Sopegraph can be used to display the change of values.
 
   The horizontal axis is denoted by log2 (fold change), and the more different genes are distributed at both ends of the picture.The ordinate is denoted by -log10 (p.value) and is the negative log of the P value of T test significance.Blue dots represent down-regulated genes, red dots represent up-regulated genes, and gray dots represent genes that are not significantly different.
 
-## [Waterfalls](https://hiplot.com.cn/basic/waterfalls)
+## [Waterfalls](https://hiplot-academic.com/basic/waterfalls)
 
 - Introduction
 

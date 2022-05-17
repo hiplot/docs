@@ -17,11 +17,11 @@
 
 **3. 如何登陆 Hiplot Tiny RSS server？**
 
-访问 https://hiplot.com.cn/ttrss, 使用 Hiplot 邮箱和默认密码 'public' 进行登录。
+访问 https://hiplot-academic.com/ttrss, 使用 Hiplot 邮箱和默认密码 'public' 进行登录。
 
 **4. 如何登陆 Hiplot Galaxy 镜像服务？**
 
-访问 https://galaxy.hiplot.com.cn, 使用 Hiplot 邮箱和默认密码 'public' 进行登录。
+访问 https://galaxy.hiplot-academic.com, 使用 Hiplot 邮箱和默认密码 'public' 进行登录。
 
 ## 数据导入
 
