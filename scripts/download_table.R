@@ -8,7 +8,7 @@ download_table <- function (x, version_field) {
   dest <- file.path(download_dir, x, paste0("v", latest))
   md5sum <- fread(cmd = sprintf("cat %s/md5sum | sed 's;  ;\t;'", dest),
     sep = "\t", data.table = FALSE, header = FALSE)
-  base_dir <- sprintf("https://hiplot-academic.com/download/%s/v%s", x, latest)
+  base_dir <- sprintf("https://download.hiplot-academic.com/download/%s/v%s", x, latest)
   finfo <- file.info(file.path(dest, md5sum[,2]))
   md5sum[,"Date"] <- as.Date(finfo$mtime, "%d%b%Y")
   md5sum[,"Size"] <- sapply(finfo$size, function(x) {

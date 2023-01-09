@@ -628,7 +628,11 @@ Bump chart can be used to display the change of grouped values.
 
   Stack:
 
-## [Diverging scale](/basic/diverging-scale)
+## [Diffusion Map](/basic/diffusion-map)
+
+- Introduction
+
+  Diffusion Map is a nonlinear dimensionality reduction algorithm that can be used to visualize developmental trajectories.## [Diverging scale](/basic/diverging-scale)
 
 - Introduction
 
@@ -1619,6 +1623,16 @@ Detail introduction about [PCAtools](http://www.bioconductor.org/packages/releas
 
   sort:No means the central axis is arranged in the order of age;Desc means descending order by total population;Asc stands for ascending order by total population.
 
+## [Pyramid Stack2](/basic/pyramid-stack2)
+
+- Introduction
+
+  The pyramid stack is a pyramid-like figure that distributes data on both sides of a central axis.
+## [Pyramid Stack](/basic/pyramid-stack)
+
+- Introduction
+
+  The pyramid stack is a pyramid-like figure that distributes data on both sides of a central axis.
 ## [QQplot](/basic/qqplot)
 
 - Introduction

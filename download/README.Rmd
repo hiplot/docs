@@ -6,7 +6,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Desktop Client
 
-We build the desktop client of Hiplot based on the [Electron](https://www.electronjs.org/). The demo data and UI components are fixed in the desktop client under the given version.
+We build the desktop client of Hiplot (ORG) based on the [Electron](https://www.electronjs.org/). The demo data and UI components are fixed in the desktop client under the given version.
 
 Latest release version:
 
@@ -19,7 +19,7 @@ Other releases of desktop client: [here](https://hiplot-academic.com/download/de
 
 ## hctl
 
-hctl is the command-line client of Hiplot website. It can be used to draw plots without the web environment.
+hctl is the command-line client of Hiplot (ORG) website. It can be used to draw plots without the web environment.
 
 Latest release version (v0.1.5):
 
@@ -29,7 +29,7 @@ download_table("hctl", "versionTerminal")
 
 Other releases of hctl: [here](https://hiplot-academic.com/download/hctl)
 
-It is required to login Hiplot server first using the `hctl login` command. `hctl plot` command can be used to draw plots by using the parameter file and data files.
+It is required to login Hiplot (ORG) server first using the `hctl login` command. `hctl plot` command can be used to draw plots by using the parameter file and data files.
 
 Demo input files of hctl can be download from here: [demo.tar.gz](https://hiplot-academic.com/download/hctl/_demo.tar.gz).
 

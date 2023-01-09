@@ -15,7 +15,7 @@ source("../../scripts/download_table.R")
 download_table("desktop", "versionDesktop")
 ```
 
-其他桌面版本: [这里](https://hiplot-academic.com/download/desktop/)
+其他桌面版本: [这里](https://download.hiplot-academic.com/download/desktop/)
 
 ## hctl
 
