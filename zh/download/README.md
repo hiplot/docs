@@ -11,48 +11,48 @@
 
 |File                                  |Size     |Date       |MD5                              |
 |:-------------------------------------|:--------|:----------|:--------------------------------|
-|[Hiplot_Desktop_0.2.0_Darwin.dmg](https://download.hiplot-academic.com/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Darwin.dmg)|85.5 Mb  |2022-04-23 |3b9b172ad7c42f21cc5cad7193d3e6fa |
-|[Hiplot_Desktop_0.2.0_Linux_amd64.deb](https://download.hiplot-academic.com/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_amd64.deb)|59.8 Mb  |2022-04-23 |1364a9cdda29899cdf7559b21c795839 |
-|[Hiplot_Desktop_0.2.0_Linux_x64.apk](https://download.hiplot-academic.com/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_x64.apk)|87.2 Mb  |2022-04-23 |1da132999464e6d8cec6d5bf28f33912 |
-|[Hiplot_Desktop_0.2.0_Linux_x86_64.rpm](https://download.hiplot-academic.com/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_x86_64.rpm)|59.9 Mb  |2022-04-23 |1cbaf4cbe039a68cf3c6abeeabacf861 |
-|[Hiplot_Desktop_0.2.0_Windows.exe](https://download.hiplot-academic.com/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows.exe)|127.7 Mb |2022-04-23 |e3209b49148a2107ef4cc5f28de48558 |
-|[Hiplot_Desktop_0.2.0_Windows_ia32.exe](https://download.hiplot-academic.com/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows_ia32.exe)|62.7 Mb  |2022-04-23 |bc70b084a6e7357ba2514b053c74ffc8 |
-|[Hiplot_Desktop_0.2.0_Windows_x64.exe](https://download.hiplot-academic.com/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows_x64.exe)|65.8 Mb  |2022-04-23 |9e52e69fe0089ac2d9f411a91e29c0ac |
+|[Hiplot_Desktop_0.2.0_Darwin.dmg](https://download.hiplot.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Darwin.dmg)|85.5 Mb  |2022-04-23 |3b9b172ad7c42f21cc5cad7193d3e6fa |
+|[Hiplot_Desktop_0.2.0_Linux_amd64.deb](https://download.hiplot.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_amd64.deb)|59.8 Mb  |2022-04-23 |1364a9cdda29899cdf7559b21c795839 |
+|[Hiplot_Desktop_0.2.0_Linux_x64.apk](https://download.hiplot.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_x64.apk)|87.2 Mb  |2022-04-23 |1da132999464e6d8cec6d5bf28f33912 |
+|[Hiplot_Desktop_0.2.0_Linux_x86_64.rpm](https://download.hiplot.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Linux_x86_64.rpm)|59.9 Mb  |2022-04-23 |1cbaf4cbe039a68cf3c6abeeabacf861 |
+|[Hiplot_Desktop_0.2.0_Windows.exe](https://download.hiplot.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows.exe)|127.7 Mb |2022-04-23 |e3209b49148a2107ef4cc5f28de48558 |
+|[Hiplot_Desktop_0.2.0_Windows_ia32.exe](https://download.hiplot.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows_ia32.exe)|62.7 Mb  |2022-04-23 |bc70b084a6e7357ba2514b053c74ffc8 |
+|[Hiplot_Desktop_0.2.0_Windows_x64.exe](https://download.hiplot.cn/download/desktop/v0.2.0/Hiplot_Desktop_0.2.0_Windows_x64.exe)|65.8 Mb  |2022-04-23 |9e52e69fe0089ac2d9f411a91e29c0ac |
 
-其他桌面版本: [这里](https://download.hiplot-academic.com/download/desktop/)
+其他桌面版本: [这里](https://download.hiplot.cn/download/desktop/)
 
 ## hctl
 
 hctl 是 Hiplot 网站的命令行程序. 它可以让用户在命令行环境下使用 Hiplot 网站的绘图系统。
 
-最新发布版本 (v0.1.5):
+最新发布版本 (v0.1.7):
 
 
 |File                             |Size   |Date       |MD5                              |
 |:--------------------------------|:------|:----------|:--------------------------------|
-|[hctl_0.1.6_Darwin_64-bit.tar.gz](https://download.hiplot-academic.com/download/hctl/v0.1.6/hctl_0.1.6_Darwin_64-bit.tar.gz)|2.9 Mb |2022-07-08 |f190fda73ba0b2d1a082a26ae5baccfe |
-|[hctl_0.1.6_Darwin_arm64.tar.gz](https://download.hiplot-academic.com/download/hctl/v0.1.6/hctl_0.1.6_Darwin_arm64.tar.gz)|2.8 Mb |2022-07-08 |226be6d982ec451e3781e9685212b521 |
-|[hctl_0.1.6_Linux_32-bit.tar.gz](https://download.hiplot-academic.com/download/hctl/v0.1.6/hctl_0.1.6_Linux_32-bit.tar.gz)|2.7 Mb |2022-07-08 |5013c6d3d61a68e344030566d739ce80 |
-|[hctl_0.1.6_Linux_64-bit.tar.gz](https://download.hiplot-academic.com/download/hctl/v0.1.6/hctl_0.1.6_Linux_64-bit.tar.gz)|2.8 Mb |2022-07-08 |95b25d72d3a56f0862e48e3980d806a7 |
-|[hctl_0.1.6_Linux_arm64.tar.gz](https://download.hiplot-academic.com/download/hctl/v0.1.6/hctl_0.1.6_Linux_arm64.tar.gz)|2.6 Mb |2022-07-08 |045ad19e47e739a90e1593adddddb3ec |
-|[hctl_0.1.6_Windows_32-bit.tar.gz](https://download.hiplot-academic.com/download/hctl/v0.1.6/hctl_0.1.6_Windows_32-bit.tar.gz)|2.8 Mb |2022-07-08 |ce57b9c644eeb42f1ec87ad1692e27f7 |
-|[hctl_0.1.6_Windows_64-bit.tar.gz](https://download.hiplot-academic.com/download/hctl/v0.1.6/hctl_0.1.6_Windows_64-bit.tar.gz)|2.9 Mb |2022-07-08 |3a5606606a431191ff503102c831f63f |
-|[hctl_0.1.6_Windows_arm64.tar.gz](https://download.hiplot-academic.com/download/hctl/v0.1.6/hctl_0.1.6_Windows_arm64.tar.gz)|2.6 Mb |2022-07-08 |2a2a6a0d33b6c251e6a1c9a8ea44780a |
+|[hctl_0.1.7_Darwin_64-bit.tar.gz](https://download.hiplot.cn/download/hctl/v0.1.7/hctl_0.1.7_Darwin_64-bit.tar.gz)|3 Mb   |2023-02-08 |19173d8631683c3bd751310c38fbb65c |
+|[hctl_0.1.7_Darwin_arm64.tar.gz](https://download.hiplot.cn/download/hctl/v0.1.7/hctl_0.1.7_Darwin_arm64.tar.gz)|2.9 Mb |2023-02-08 |e19f342414414c7c9597e94a8ed60207 |
+|[hctl_0.1.7_Linux_32-bit.tar.gz](https://download.hiplot.cn/download/hctl/v0.1.7/hctl_0.1.7_Linux_32-bit.tar.gz)|2.8 Mb |2023-02-08 |7d032a64356320f71f817de0fc8219b4 |
+|[hctl_0.1.7_Linux_64-bit.tar.gz](https://download.hiplot.cn/download/hctl/v0.1.7/hctl_0.1.7_Linux_64-bit.tar.gz)|2.9 Mb |2023-02-08 |cfc2c81bbe3486e4fbc75ae80ee71d6f |
+|[hctl_0.1.7_Linux_arm64.tar.gz](https://download.hiplot.cn/download/hctl/v0.1.7/hctl_0.1.7_Linux_arm64.tar.gz)|2.7 Mb |2023-02-08 |e61edbf465586c832d9b0bd7827ec9a7 |
+|[hctl_0.1.7_Windows_32-bit.tar.gz](https://download.hiplot.cn/download/hctl/v0.1.7/hctl_0.1.7_Windows_32-bit.tar.gz)|2.9 Mb |2023-02-08 |21a1ee95e7f6cf48f029396fb2d5dc77 |
+|[hctl_0.1.7_Windows_64-bit.tar.gz](https://download.hiplot.cn/download/hctl/v0.1.7/hctl_0.1.7_Windows_64-bit.tar.gz)|2.9 Mb |2023-02-08 |082bfe11a98b9458fa0c3021e3b1ca67 |
+|[hctl_0.1.7_Windows_arm64.tar.gz](https://download.hiplot.cn/download/hctl/v0.1.7/hctl_0.1.7_Windows_arm64.tar.gz)|2.7 Mb |2023-02-08 |3e6adef0e76a799eb15add028d26ae66 |
 
-其他 hctl 版本: [这里](https://hiplot-academic.com/download/hctl)
+其他 hctl 版本: [这里](https://hiplot.cn/download/hctl)
 
 使用 hctl 进行绘图之前，用户需要使用 `hctl login` 命令获得 Hiplot 的服务授权。 登录成功后，即可使用 `hctl plot` 命令进行绘图：输入数据为一个 JSON 格式的参数文件和/或一个/多个数据表。
 
-示例输入 [demo.tar.gz](https://hiplot-academic.com/download/hctl/_demo.tar.gz)。
+示例输入 [demo.tar.gz](https://hiplot.cn/download/hctl/_demo.tar.gz)。
 
 ```bash
 ## Linux 64 Demo
 mkdir /tmp/hiplot
 cd /tmp/hiplot
-wget https://hiplot-academic.com/download/hctl/v0.1.5/hctl_0.1.5_Linux_64-bit.tar.gz
-wget https://hiplot-academic.com/download/hctl/_demo.tar.gz
+wget https://hiplot.cn/download/hctl/v0.1.7/hctl_0.1.7_Linux_64-bit.tar.gz
+wget https://hiplot.cn/download/hctl/_demo.tar.gz
 
-tar -xzvf hctl_0.1.5_Linux_64-bit.tar.gz
+tar -xzvf hctl_0.1.7_Linux_64-bit.tar.gz
 tar -xzvf _demo.tar.gz
 
 ./hctl login
@@ -82,7 +82,7 @@ hctl plot -p basic-tsne-params.json -o /tmp/hiplot-tsne
 
 
 ```
-## Command-line client to draw plots of [Hiplot](https://hiplot-academic.com) website. More see here https://github.com/hiplot.
+## Command-line client to draw plots of [Hiplot](https://hiplot.cn) website. More see here https://github.com/hiplot.
 ## 
 ## Usage:
 ##   hctl [flags]
@@ -101,7 +101,7 @@ hctl plot -p basic-tsne-params.json -o /tmp/hiplot-tsne
 ##   -o, --out-dir string    output dir. (default "/tmp")
 ##       --proxy string      HTTP proxy to query.
 ##       --save-log          Save log to file.
-##   -k, --taskname string   task ID (default is random). (default "e01a4a51-3c3d-4fff-8044-e5c5e7244072")
+##   -k, --taskname string   task ID (default is random). (default "db1cfb4f-c323-4da7-9a45-a09b135d7430")
 ##       --timeout int       set the timeout of per request. (default 35)
 ##       --verbose int       verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ##   -v, --version           version for hctl
@@ -140,7 +140,7 @@ hctl plot -p basic-tsne-params.json -o /tmp/hiplot-tsne
 ##   -m, --module string         module name: basic, advance. (default "basic")
 ##   -p, --params string         json format tool params file (exported by Hiplot).
 ##       --print-links           print result links
-##       --temp-code string      task tempcode. (default "g5w69Kn")
+##       --temp-code string      task tempcode. (default "2rSx7qr")
 ##   -t, --tool string           tool name (e.g. heatmap).
 ## 
 ## Global Flags:
@@ -148,7 +148,7 @@ hctl plot -p basic-tsne-params.json -o /tmp/hiplot-tsne
 ##   -o, --out-dir string    output dir. (default "/tmp")
 ##       --proxy string      HTTP proxy to query.
 ##       --save-log          Save log to file.
-##   -k, --taskname string   task ID (default is random). (default "e2c5cf00-5902-4d8a-8add-293b7330b06a")
+##   -k, --taskname string   task ID (default is random). (default "e4b4114f-83ad-4de8-aac6-19741ac82fe7")
 ##       --timeout int       set the timeout of per request. (default 35)
 ##       --verbose int       verbose level (0:no output, 1: basic level, 2: with env info) (default 1)
 ```

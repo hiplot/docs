@@ -1,4 +1,5 @@
 module.exports = {
+    temp: '/tmp/vuepress.temp',
     base: '/docs/',
     host: '0.0.0.0',
     head: [
@@ -46,7 +47,7 @@ module.exports = {
                     }
                 },
                 nav: [
-                    { text: 'Home', link: 'https://hiplot-academic.com' },
+                    { text: 'Home', link: 'https://hiplot.cn' },
                     { text: 'Docs', link: '/' },
                     { text: 'Community', link: 'https://discord.com/channels/708004190286381068' },
                 ],
@@ -99,7 +100,7 @@ module.exports = {
                     }
                 },
                 nav: [
-                    { text: '主页', link: 'https://hiplot-academic.com' },
+                    { text: '主页', link: 'https://hiplot.cn' },
                     { text: '文档', link: '/zh/' },
                     { text: '用户社区', link: 'https://discord.com/channels/708004190286381068' },
                 ],

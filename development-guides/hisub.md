@@ -50,7 +50,7 @@ Terminal:
 $ hisub                              
 Using library: /Users/wsx/Library/R
 HiSub version 0.4
-Copyright (c) 2021 Hiplot (https://hiplot-academic.com/)
+Copyright (c) 2021 Hiplot (https://hiplot.cn/)
 ========================
 Checking dependencies...
 Loading required package: pacman
@@ -95,7 +95,7 @@ First you should prepare an R script named `source.R` in terminal with:
 $ hisub template
 Using library: /Users/wsx/Library/R
 HiSub version 0.4
-Copyright (c) 2021 Hiplot (https://hiplot-academic.com/)
+Copyright (c) 2021 Hiplot (https://hiplot.cn/)
 ========================
 Checking dependencies...
 Loading required package: pacman
@@ -220,7 +220,7 @@ With the R script, we can generate the Hiplot plugin with command:
 $ hisub source.R helloword
 Using library: /Users/wsx/Library/R
 HiSub version 0.4
-Copyright (c) 2021 Hiplot (https://hiplot-academic.com/)
+Copyright (c) 2021 Hiplot (https://hiplot.cn/)
 ========================
 Checking dependencies...
 Loading required package: pacman
@@ -274,7 +274,7 @@ helloword
 ```
 ### Step 3: preview the plugin
 
-Then you can submit the generated `data.json` and `ui.json` to <https://hiplot-academic.com/developer/plugin-preview> (You can also read exmaples provided by this link and see how to set the parameter settings) to see how it works. For our "Hello World", it looks like:
+Then you can submit the generated `data.json` and `ui.json` to <https://hiplot.cn/developer/plugin-preview> (You can also read exmaples provided by this link and see how to set the parameter settings) to see how it works. For our "Hello World", it looks like:
 
 ![image-20210204202229053](https://gitee.com/ShixiangWang/ImageCollection/raw/master/png/20210204202229.png)
 
@@ -382,10 +382,10 @@ Now you can submit your plugin via email (<admin@hiplot.org>) or GitHub <https:/
 
 ## More examples
 
-- [ezcox](https://github.com/hiplot/hiplotlib/tree/master/inst/hisub_examples/ezcox.R) - <https://hiplot-academic.com/basic/ezcox>
-- [pcatools](https://github.com/hiplot/hiplotlib/tree/master/inst/hisub_examples/pcatools.R) - <https://hiplot-academic.com/basic/pcatools>
+- [ezcox](https://github.com/hiplot/hiplotlib/tree/master/inst/hisub_examples/ezcox.R) - <https://hiplot.cn/basic/ezcox>
+- [pcatools](https://github.com/hiplot/hiplotlib/tree/master/inst/hisub_examples/pcatools.R) - <https://hiplot.cn/basic/pcatools>
 
-More information about UI design and setting can be found at <https://hiplot-academic.com/docs/zh/development-guides/>.
+More information about UI design and setting can be found at <https://hiplot.cn/docs/zh/development-guides/>.
 
 ## Hiplot tag list
 

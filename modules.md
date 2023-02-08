@@ -2,18 +2,18 @@
 
 All available modules of Hiplot are listed in left panel of the website.
 
-- [Home](https://hiplot-academic.com)
-- [Basic Module](https://hiplot-academic.com/basic)
-- [Advanced Module](https://hiplot-academic.com/advance)
-- [Clinical Tools](https://hiplot-academic.com/clinical-tools)
-- [Mini Tools](https://hiplot-academic.com/mini-tools)
-- [Books](https://hiplot-academic.com/books)
-- [File Manager](https://hiplot-academic.com/file-manager)
-- [Account Center](https://hiplot-academic.com/account-center)
-- [Developer Center](https://hiplot-academic.com/developer-center)
-- [Developer Wall](https://hiplot-academic.com/developer-wall)
+- [Home](https://hiplot.cn)
+- [Basic Module](https://hiplot.cn/basic)
+- [Advanced Module](https://hiplot.cn/advance)
+- [Clinical Tools](https://hiplot.cn/clinical-tools)
+- [Mini Tools](https://hiplot.cn/mini-tools)
+- [Books](https://hiplot.cn/books)
+- [File Manager](https://hiplot.cn/file-manager)
+- [Account Center](https://hiplot.cn/account-center)
+- [Developer Center](https://hiplot.cn/developer-center)
+- [Developer Wall](https://hiplot.cn/developer-wall)
 
-Now, the major functions of Hiplot are provided by [Basic Module](https://hiplot-academic.com/basic), [Advanced Module](https://hiplot-academic.com/advance), and [Mini Tools](https://hiplot-academic.com/mini-tools). All applications are displayed as card matrices in the module of Hiplot. The application card contains the basic information including the name, one-sentence introduction, scores, and tags.
+Now, the major functions of Hiplot are provided by [Basic Module](https://hiplot.cn/basic), [Advanced Module](https://hiplot.cn/advance), and [Mini Tools](https://hiplot.cn/mini-tools). All applications are displayed as card matrices in the module of Hiplot. The application card contains the basic information including the name, one-sentence introduction, scores, and tags.
 
 ![Navigation Page](https://s1.imagehub.cc/images/2021/05/03/navigation-tuya.jpg)
 
