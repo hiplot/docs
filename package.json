@@ -38,7 +38,7 @@
     "browserslist": "^4.20.2",
     "cache-loader": "^4.1.0",
     "color-string": "^1.9.0",
-    "dns-packet": "^5.3.1",
+    "dns-packet": "^5.4.0",
     "dot-prop": "^7.2.0",
     "elliptic": "^6.5.4",
     "escape-html": "^1.0.3",
